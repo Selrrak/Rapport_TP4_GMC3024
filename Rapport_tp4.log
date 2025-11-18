@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  18 NOV 2025 08:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  18 NOV 2025 09:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -805,10 +805,11 @@ LaTeX Font Info:    ... okay on input line 53.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 53.
+(./Rapport_tp4.out) (./Rapport_tp4.out)
 \@outlinefile=\write5
 \openout5 = `Rapport_tp4.out'.
 
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count483
 \scratchdimen=\dimen257
@@ -889,7 +890,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 58.
-<./assets/Université_Laval_logo_et_texte.svg.png, id=4, 2569.6pt x 1116.17pt>
+<./assets/Université_Laval_logo_et_texte.svg.png, id=108, 2569.6pt x 1116.17pt>
 File: ./assets/Université_Laval_logo_et_texte.svg.png Graphic file (type png)
 <use ./assets/Université_Laval_logo_et_texte.svg.png>
 Package pdftex.def Info: ./assets/Université_Laval_logo_et_texte.svg.png  used on input line 66.
@@ -898,8 +899,175 @@ Package pdftex.def Info: ./assets/Université_Laval_logo_et_texte.svg.png  used 
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./assets/Université_Laval_logo_et_texte.svg.png>]
-No file Rapport_tp4.toc.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./assets/Université_Laval_logo_et_texte.svg.png>] (./Rapport_tp4.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 4.
+
+./Rapport_tp4.toc:5: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...kstart {\numberline {2.1.1}Volume ##
+                                                  ######1}\Hy@toclinkend 
+l.5 ...2.1.1}Volume ####1}{2}{subsubsection.2.1.1}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:5: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...tart {\numberline {2.1.1}Volume ####
+                                                  ####1}\Hy@toclinkend 
+l.5 ...2.1.1}Volume ####1}{2}{subsubsection.2.1.1}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:5: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...rt {\numberline {2.1.1}Volume ######
+                                                  ##1}\Hy@toclinkend 
+l.5 ...2.1.1}Volume ####1}{2}{subsubsection.2.1.1}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:5: You can't use `macro parameter character #' in horizontal mode.
+<argument> ... {\numberline {2.1.1}Volume ########
+                                                  1}\Hy@toclinkend 
+l.5 ...2.1.1}Volume ####1}{2}{subsubsection.2.1.1}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:6: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...kstart {\numberline {2.1.2}Volume ##
+                                                  ######2}\Hy@toclinkend 
+l.6 ...2.1.2}Volume ####2}{3}{subsubsection.2.1.2}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:6: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...tart {\numberline {2.1.2}Volume ####
+                                                  ####2}\Hy@toclinkend 
+l.6 ...2.1.2}Volume ####2}{3}{subsubsection.2.1.2}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:6: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...rt {\numberline {2.1.2}Volume ######
+                                                  ##2}\Hy@toclinkend 
+l.6 ...2.1.2}Volume ####2}{3}{subsubsection.2.1.2}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:6: You can't use `macro parameter character #' in horizontal mode.
+<argument> ... {\numberline {2.1.2}Volume ########
+                                                  2}\Hy@toclinkend 
+l.6 ...2.1.2}Volume ####2}{3}{subsubsection.2.1.2}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:8: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...kstart {\numberline {2.2.1}Volume ##
+                                                  ######3}\Hy@toclinkend 
+l.8 ...2.2.1}Volume ####3}{4}{subsubsection.2.2.1}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:8: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...tart {\numberline {2.2.1}Volume ####
+                                                  ####3}\Hy@toclinkend 
+l.8 ...2.2.1}Volume ####3}{4}{subsubsection.2.2.1}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:8: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...rt {\numberline {2.2.1}Volume ######
+                                                  ##3}\Hy@toclinkend 
+l.8 ...2.2.1}Volume ####3}{4}{subsubsection.2.2.1}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:8: You can't use `macro parameter character #' in horizontal mode.
+<argument> ... {\numberline {2.2.1}Volume ########
+                                                  3}\Hy@toclinkend 
+l.8 ...2.2.1}Volume ####3}{4}{subsubsection.2.2.1}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:9: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...kstart {\numberline {2.2.2}Volume ##
+                                                  ######4}\Hy@toclinkend 
+l.9 ...2.2.2}Volume ####4}{5}{subsubsection.2.2.2}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:9: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...tart {\numberline {2.2.2}Volume ####
+                                                  ####4}\Hy@toclinkend 
+l.9 ...2.2.2}Volume ####4}{5}{subsubsection.2.2.2}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:9: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...rt {\numberline {2.2.2}Volume ######
+                                                  ##4}\Hy@toclinkend 
+l.9 ...2.2.2}Volume ####4}{5}{subsubsection.2.2.2}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.toc:9: You can't use `macro parameter character #' in horizontal mode.
+<argument> ... {\numberline {2.2.2}Volume ########
+                                                  4}\Hy@toclinkend 
+l.9 ...2.2.2}Volume ####4}{5}{subsubsection.2.2.2}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+)
 \tf@toc=\write6
 \openout6 = `Rapport_tp4.toc'.
 
@@ -934,40 +1102,906 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 88--89
 [][] 
  []
 
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \GetTitleStringResult.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-LaTeX Warning: File `./assets/XY_pref.pdf' not found on input line 95.
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \GTS@GlobalString.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: You can't use `macro parameter character #' in horizontal mode.
+<argument> Volume ##
+                    1
+l.94     \subsubsection{Volume #1}
+                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   }
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   }
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   \
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   \
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:94: Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   1
+l.94     \subsubsection{Volume #1}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
 
-./Rapport_tp4.tex:95: Package pdftex.def Error: File `./assets/XY_pref.pdf' not found: using draft setting.
+LaTeX Warning: File `./assets/XY_pref1.pdf' not found on input line 96.
+
+
+./Rapport_tp4.tex:96: Package pdftex.def Error: File `./assets/XY_pref1.pdf' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 ...width=1.1\linewidth]{./assets/XY_pref.pdf}
+l.96 ...idth=1.1\linewidth]{./assets/XY_pref1.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 95--96
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 96--97
 [][] 
  []
 
 
 
 [1]
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \GetTitleStringResult.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-LaTeX Warning: File `./assets/Z_pref.pdf' not found on input line 100.
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \GTS@GlobalString.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: You can't use `macro parameter character #' in horizontal mode.
+<argument> Volume ##
+                    2
+l.98     \subsubsection{Volume #2}
+                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   }
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   }
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   \
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   \
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:98: Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   2
+l.98     \subsubsection{Volume #2}
+                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
 
-./Rapport_tp4.tex:100: Package pdftex.def Error: File `./assets/Z_pref.pdf' not found: using draft setting.
+LaTeX Warning: File `./assets/XY_pref2.pdf' not found on input line 100.
+
+
+./Rapport_tp4.tex:100: Package pdftex.def Error: File `./assets/XY_pref2.pdf' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 ...width=1.1\linewidth]{./assets/Z_pref.pdf}
+l.100 ...dth=1.1\linewidth]{./assets/XY_pref2.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -980,230 +2014,1136 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 100--101
 
 
 [2]
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \GetTitleStringResult.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-LaTeX Warning: File `./assets/fabrication.pdf' not found on input line 105.
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \GTS@GlobalString.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: You can't use `macro parameter character #' in horizontal mode.
+<argument> Volume ##
+                    3
+l.104     \subsubsection{Volume #3}
+                                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   }
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   }
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   \
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   \
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:104: Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   3
+l.104     \subsubsection{Volume #3}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
 
-./Rapport_tp4.tex:105: Package pdftex.def Error: File `./assets/fabrication.pdf' not found: using draft setting.
+LaTeX Warning: File `./assets/Z_pref1.pdf' not found on input line 106.
+
+
+./Rapport_tp4.tex:106: Package pdftex.def Error: File `./assets/Z_pref1.pdf' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 ...=1.1\linewidth]{./assets/fabrication.pdf}
+l.106 ...idth=1.1\linewidth]{./assets/Z_pref1.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 105--106
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 106--107
 [][] 
  []
 
 
 
 [3]
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \GetTitleStringResult.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-LaTeX Warning: File `./assets/Polyworks.pdf' not found on input line 110.
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \GTS@GlobalString.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: You can't use `macro parameter character #' in horizontal mode.
+<argument> Volume ##
+                    4
+l.108     \subsubsection{Volume #4}
+                                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@A.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@temp@B.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   }
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   }
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \HyPsd@String.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   \
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   \
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Rapport_tp4.tex:108: Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   4
+l.108     \subsubsection{Volume #4}
+                                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
 
-./Rapport_tp4.tex:110: Package pdftex.def Error: File `./assets/Polyworks.pdf' not found: using draft setting.
+LaTeX Warning: File `./assets/Z_pref2.pdf' not found on input line 110.
+
+
+./Rapport_tp4.tex:110: Package pdftex.def Error: File `./assets/Z_pref2.pdf' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 ...th=1.0\linewidth]{./assets/Polyworks.pdf}
+l.110 ...idth=1.1\linewidth]{./assets/Z_pref2.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 110--111
+[][] 
+ []
 
 
 
 [4]
-<./assets/signature.png, id=46, 1330.9725pt x 265.99374pt>
-File: ./assets/signature.png Graphic file (type png)
-<use ./assets/signature.png>
-Package pdftex.def Info: ./assets/signature.png  used on input line 117.
-(pdftex.def)             Requested size: 204.85846pt x 40.94043pt.
+
+LaTeX Warning: File `./assets/Croquis_SR.pdf' not found on input line 116.
+
+
+./Rapport_tp4.tex:116: Package pdftex.def Error: File `./assets/Croquis_SR.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 ...h=1.1\linewidth]{./assets/Croquis_SR.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 116--117
+[][] 
+ []
+
 
 
 [5]
 
-LaTeX Warning: File `./assets/Oring_scheme.png' not found on input line 123.
+LaTeX Warning: File `./assets/Signature_SR.jpg' not found on input line 122.
 
 
-./Rapport_tp4.tex:123: Package pdftex.def Error: File `./assets/Oring_scheme.png' not found: using draft setting.
+./Rapport_tp4.tex:122: Package pdftex.def Error: File `./assets/Signature_SR.jpg' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123 ...1.1\linewidth]{./assets/Oring_scheme.png}
+l.122 ...1.1\linewidth]{./assets/Signature_SR.jpg}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 123--124
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 122--123
 [][] 
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 127.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 127.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 127.
 
 
-[6 <./assets/signature.png (PNG copy)>]
+[6]
 
-[7{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
-
-LaTeX Warning: File `./assets/Pump_DCL.png' not found on input line 202.
+LaTeX Warning: File `./assets/Croquis_WH.pdf' not found on input line 127.
 
 
-./Rapport_tp4.tex:202: Package pdftex.def Error: File `./assets/Pump_DCL.png' not found: using draft setting.
+./Rapport_tp4.tex:127: Package pdftex.def Error: File `./assets/Croquis_WH.pdf' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.202 ...[width=\linewidth]{./assets/Pump_DCL.png}
+l.127 ...h=1.1\linewidth]{./assets/Croquis_WH.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 127--128
+[][] 
+ []
+
+
+
+[7]
+
+LaTeX Warning: File `./assets/Signature_WH.jpg' not found on input line 133.
+
+
+./Rapport_tp4.tex:133: Package pdftex.def Error: File `./assets/Signature_WH.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ...1.1\linewidth]{./assets/Signature_WH.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 133--134
+[][] 
+ []
 
 
 
 [8]
 
-LaTeX Warning: File `./assets/Piston_DCL.png' not found on input line 208.
+LaTeX Warning: File `./assets/Croquis_PC.pdf' not found on input line 138.
 
 
-./Rapport_tp4.tex:208: Package pdftex.def Error: File `./assets/Piston_DCL.png' not found: using draft setting.
+./Rapport_tp4.tex:138: Package pdftex.def Error: File `./assets/Croquis_PC.pdf' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.208 ...idth=\linewidth]{./assets/Piston_DCL.png}
+l.138 ...h=1.1\linewidth]{./assets/Croquis_PC.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 138--139
+[][] 
+ []
 
 
 
 [9]
 
-LaTeX Warning: File `./assets/Click_scheme.png' not found on input line 217.
+LaTeX Warning: File `./assets/Signature_PC.jpg' not found on input line 144.
 
 
-./Rapport_tp4.tex:217: Package pdftex.def Error: File `./assets/Click_scheme.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.217 ...th=\linewidth]{./assets/Click_scheme.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./assets/Click_DCL.png' not found on input line 223.
-
-
-./Rapport_tp4.tex:223: Package pdftex.def Error: File `./assets/Click_DCL.png' not found: using draft setting.
+./Rapport_tp4.tex:144: Package pdftex.def Error: File `./assets/Signature_PC.jpg' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 ...width=\linewidth]{./assets/Click_DCL.png}
+l.144 ...1.1\linewidth]{./assets/Signature_PC.jpg}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 144--145
+[][] 
+ []
 
 
 
 [10]
 
-[11]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 246.
+LaTeX Warning: File `./assets/Croquis_CB.pdf' not found on input line 149.
 
 
-LaTeX Warning: Command \^ invalid in math mode on input line 247.
+./Rapport_tp4.tex:149: Package pdftex.def Error: File `./assets/Croquis_CB.pdf' not found: using draft setting.
 
-./Rapport_tp4.tex:250: Missing $ inserted.
-<inserted text> 
-                $
-l.250 ...box.com/friction-coefficients-d_778.html}
-                                                  \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Rapport_tp4.tex:250: Missing $ inserted.
-<inserted text> 
-                $
-l.250 ...box.com/friction-coefficients-d_778.html}
-                                                  \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Rapport_tp4.tex:253: Missing $ inserted.
-<inserted text> 
-                $
-l.253 ...nne du piston & $A_{piston}$ & 1,07e-3 m^
-                                                  2\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Rapport_tp4.tex:254: Missing $ inserted.
-<inserted text> 
-                $
-l.254 		F
-         orce maximale pour déplacer le piston vers le bas & $F_{piston}$ &...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 ...h=1.1\linewidth]{./assets/Croquis_CB.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (29.22476pt too wide) in alignment at lines 238--279
- [] [] [] 
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 149--150
+[][] 
  []
 
-[12]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 284.
- (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-LaTeX Warning: Command \^ invalid in math mode on input line 294.
 
 
+[11]
 
-[13{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-./Rapport_tp4.tex:337: Extra }, or forgotten $.
-l.337 ...}} = 0.2\,\varepsilon_{\text{ruptureXY}}}
+LaTeX Warning: File `./assets/Signature_CB.jpg' not found on input line 155.
+
+
+./Rapport_tp4.tex:155: Package pdftex.def Error: File `./assets/Signature_CB.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+l.155 ...1.1\linewidth]{./assets/Signature_CB.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 155--156
+[][] 
+ []
+
+
+
+[12]
+
+LaTeX Warning: File `./assets/Specs.pdf' not found on input line 168.
+
+
+./Rapport_tp4.tex:168: Package pdftex.def Error: File `./assets/Specs.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 ...[width=1.1\linewidth]{./assets/Specs.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 168--169
+[][] 
+ []
+
+
+
+[13]
 
 [14]
+Overfull \vbox (54.44238pt too high) has occurred while \output is active []
+
+
 
 [15]
 
-LaTeX Warning: Empty bibliography on input line 363.
+LaTeX Warning: Empty bibliography on input line 172.
+
+runsystem(latexminted cleantemp  --timestamp 20251118095414 48C23D74E4E58F0BF2B83D748395D021)...executed safely (allowed).
 
 (./Rapport_tp4.aux)
  ***********
@@ -1212,50 +3152,57 @@ L3 programming layer <2025-01-18>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 Package rerunfilecheck Warning: File `Rapport_tp4.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Rapport_tp4.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  F4C7886C7741C5506539B1AB301917A7;3342.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Rapport_tp4
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Before: A1144837F0A4314DCD87B70F4F2DC976;4504
+(rerunfilecheck)             After:  564EBFC46EED8EA74C8C57A5F7BCA3EA;3177.
 Package logreq Info: Writing requests to 'Rapport_tp4.run.xml'.
 \openout1 = `Rapport_tp4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26278 strings out of 475142
- 509715 string characters out of 5765945
- 1560730 words of memory out of 5000000
- 48887 multiletter control sequences out of 15000+600000
- 621986 words of font info for 74 fonts, out of 8000000 for 9000
+ 26334 strings out of 475142
+ 512330 string characters out of 5765945
+ 1554950 words of memory out of 5000000
+ 48969 multiletter control sequences out of 15000+600000
+ 603078 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,11n,81p,1013b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,81p,700b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{subsubsection.5.3.4} has been referenced but does not exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{subsubsection.5.3.3} has been referenced but does not exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{subsubsection.5.3.2} has been referenced but does not exist, replaced by a fixed one
 
-</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Rapport_tp4.pdf (17 pages, 477873 bytes).
+
+pdfTeX warning (dest): name{subsubsection.5.3.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.5.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.5.2.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.5.2.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.5.2.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.5.2} has been referenced but does not exist, replaced by a fixed one
+
+</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Rapport_tp4.pdf (17 pages, 305743 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 79 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 268 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
 
