@@ -45,7 +45,7 @@
 \makeatother
 \subtitle{Va être remplacée par celle sur Teams}  % Sets the document subtitle.
 \author{Charles Bouthillier Paul Charvet William Hamilton Samuel Roy}% Sets the author's name.
-\date{2025-11-06}                   % Sets the document date.
+\date{2025-12-12}                   % Sets the document date.
 
 % \renewcommand{\familydefault}{\sfdefault} % Changes the default font to one without serifs
 
@@ -88,276 +88,85 @@
 	    \includegraphics[width=1.1\linewidth]{./assets/Explose.pdf}
     \end{figure}
 
-\section{captures d'écran des deux enveloppes d'impression}
+\section{captures d'écran des enveloppes d'impression}
 
-\subsection{Volume Préférentiel X-Y}
+\subsection{Volumes Préférentiels X-Y}
+    \subsubsection{Volume #1}    
     \begin{figure}[H] 
-	    \includegraphics[width=1.1\linewidth]{./assets/XY_pref.pdf}
+	    \includegraphics[width=1.1\linewidth]{./assets/XY_pref1.pdf}
+    \end{figure}
+    \subsubsection{Volume #2}
+    \begin{figure}[H] 
+	    \includegraphics[width=1.1\linewidth]{./assets/XY_pref2.pdf}
     \end{figure}
 
-    \subsection{Volume Préférentiel Z}
+\subsection{Volumes Préférentiels Z}
+    \subsubsection{Volume #3}    
     \begin{figure}[H] 
-	    \includegraphics[width=1.1\linewidth]{./assets/Z_pref.pdf}
+	    \includegraphics[width=1.1\linewidth]{./assets/Z_pref1.pdf}
+    \end{figure}
+    \subsubsection{Volume #4}
+    \begin{figure}[H] 
+	    \includegraphics[width=1.1\linewidth]{./assets/Z_pref2.pdf}
     \end{figure}
 
-\section{Dessin de fabrication du corps de pompe}
+\section{Croquis à main levé}
+    \subsection{Concept \#1: Samuel Roy}
     \begin{figure}[H] 
-	    \includegraphics[width=1.1\linewidth]{./assets/fabrication.pdf}
+	    \includegraphics[width=1.1\linewidth]{./assets/Croquis_SR.pdf}
+    \end{figure}
+    \begin{par}
+	    Explication du concept
+    \end{par}
+    \begin{figure}[H] 
+	    \includegraphics[width=1.1\linewidth]{./assets/Signature_SR.jpg}
     \end{figure}
 
-\section{rapport PolyWorks sur tolérance géometrqiue de l'axe du levier}
+    \subsection{Concept \#2: William Hamilton}
     \begin{figure}[H] 
-	    \includegraphics[width=1.0\linewidth]{./assets/Polyworks.pdf}
+	    \includegraphics[width=1.1\linewidth]{./assets/Croquis_WH.pdf}
     \end{figure}
-\subsection{Conclusion de l'analyse}
-L'axe de rotation du levier n'étant pas perpendiculaire à celui de translation du piston, ce mouvement n'est pas parallèle au corps de la pompe, causant plus de frottement piston-bâti que nécessaire ainsi qu'une étanchéité moindre.
-\section{Calculs}
-\subsection{signature}
+    \begin{par}
+	    Explication du concept
+    \end{par}
     \begin{figure}[H] 
-	    \includegraphics[width=0.45\linewidth]{./assets/signature.png}
+	    \includegraphics[width=1.1\linewidth]{./assets/Signature_WH.jpg}
     \end{figure}
 
-\subsection{Joint d'étanchéité piston-cylindre de pompe}
-\subsubsection{Schéma}
+    \subsection{Concept \#3: Paul Charvet}
     \begin{figure}[H] 
-	    \includegraphics[width=1.1\linewidth]{./assets/Oring_scheme.png}
+	    \includegraphics[width=1.1\linewidth]{./assets/Croquis_PC.pdf}
     \end{figure}
-\subsubsection{Données techniques}
-\begin{center}
-	\begin{tabular}{|c c c|}
-		\hline
-		Paramètre & symbole & valeur de base\\
-		\hline
-		Coefficient de Poisson du caoutchouc & $\mu$ & 0,5\\
-		Pourcentage d'étirement du joint torique & Stretch\% & 5\%\\
-		Pourcentage de réduction de la section du joint torique & AR\% & N/A\\
-		Diamètre de la section du joint torique & W & 2,62 mm\\
-		Diamètre de la section du joint torique étiré & WR & N/A\\
-		Profondeur de la rainure, incluant jeu diamétrale & F & N/A\\
-		Compression du joint torique & SQ\% & 21\%$\in$[12;24[\%\\
-		Diamètre interne du reservoir & BORE & 38 mm\\
-		Diamètre du fond de rainure sur le piston & PG & N/A\\
-		Diamètre intérieur du joint torique & ID & N/A\\
-		Volume du joint torique & OVol & N/A\\
-		Pourcentage de remplissage de la rainure & Fill\% & 65\%\\
-		Volume de la rainure & GVol & N/A\\
-		Largeur de la rainure & G & N/A\\
-		\hline
-	\end{tabular}
-\end{center}
-\subsubsection{Équations}
-\begin{equation}
-	AR\% = Stretch\% * \mu 
-\end{equation}
-\[ AR\% = 5\% * 0,5 = 2,5\% \]
+    \begin{par}
+	    Explication du concept
+    \end{par}
+    \begin{figure}[H] 
+	    \includegraphics[width=1.1\linewidth]{./assets/Signature_PC.jpg}
+    \end{figure}
 
-\begin{equation}
-	WR = W - (\frac{AR\%}{100})*W 
-\end{equation}
-\[WR = 2,62 - (\frac{2,5}{100})*2,62 = 2,56 mm\] 
-
-
-\begin{equation}
-	SQ\% = (\frac{WR - F}{W})*100\% 
-\end{equation}
-
-\[ F = (WR - \frac{SQ\%}{100\%})*W \]
-
-\[ F = (2,56 - \frac{21}{100})*2,62 = 2,00 mm  \]
-
-\begin{equation}
-	F = (\frac{BORE-PG}{2}) 
-\end{equation}
-\[PG = BORE - 2F\]
-\[PG = 38 - 2*2 = 34 mm\]
-
-\begin{equation}
-	Stretch\% = (\frac{PG -ID}{ID})*100\%
-\end{equation}
-\[ ID = \frac{PG}{(\frac{Stretch\%}{100})+1} \] 
-\[ ID = \frac{34}{(\frac{5}{100})+1} = 32,38 mm \]
-
-\begin{equation}
-	OVol = \frac{(\pi)^2}{4}*(ID+W)*W^2
-\end{equation}
-
-\[ OVol = \frac{(\pi)^2}{4}*(32,38+2,62)*2,62^2 = 592,82 mm^3 \] 
-
-\begin{equation}
-	Fill\% = \frac{OVol}{GVol}*100\%
-\end{equation}
-\[ GVol = \frac{100\%*OVol}{Fill\%} \]
-\[ GVol = \frac{100*592,82}{65} = 912,03 mm^3 \] 
-
-\begin{equation}
-	GVol = \frac{\pi}{4}*(BORE^2 - PG^2)*G
-\end{equation}
-\[ G = \frac{4*GVol}{\pi*(BORE^2 - PG^2)} \]
-\[ G = \frac{4*912,3}{\pi*(38^2 - 34^2)} = 4,032 mm \]
-
-\subsection{Pièce encliquetée}
-\subsubsection{Schémas}
-\begin{figure}[H]
-    \centering 
-	\includegraphics[width=\linewidth]{./assets/Pump_DCL.png}
-    \caption{Pompe entière}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\linewidth]{./assets/Piston_DCL.png}
-    \caption{diagramme de corps libre du piston en phase de descente, juste avant l'ouverture des valves}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
+    \subsection{Concept \#4: Charles Bouthillier}
+    \begin{figure}[H] 
+	    \includegraphics[width=1.1\linewidth]{./assets/Croquis_CB.pdf}
+    \end{figure}
+    \begin{par}
+	    Explication du concept
+    \end{par}
+    \begin{figure}[H] 
+	    \includegraphics[width=1.1\linewidth]{./assets/Signature_CB.jpg}
+    \end{figure}
     
-    \begin{subfigure}[t]{0.48\linewidth}
-        \centering
-        \includegraphics[height=9 cm, width=\linewidth]{./assets/Click_scheme.png}
-        \caption{Références des dimensions}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[t]{0.48\linewidth}
-        \centering
-        \includegraphics[height= 9 cm, width=\linewidth]{./assets/Click_DCL.png}
-        \caption{DCL}
-    \end{subfigure}
-    \caption{Pièce encliquetée}
-\end{figure}
+\section{Calculs}
 
-\subsubsection{Questions techniques et description des calculs}
-	\begin{enumerate}
-		\item La pièce encliquetée cède-t-elle lorsque l'utilisateur actionne la pompe? \par
-			La charge nécessaire au flambage de la pièce ainsi que la contrainte de rupture en compression du matériau seront comparer à la force/contrainte subit par la pièce encliquetée. Celle-ci est liée à celle pour faire bouger le piston par l'entremise du bras de levier. Un diagramme de corps libre permet de trouver ce lien. Quant à la force pour faire bouger le piston, on l'estime maximale lorsque le piston est dans sa phase de descente, juste avant que les valves qui le traverse ne s'ouvrent. Si on suppose que le piston est parfaitement étanche, on peux alors supposer que la pression au dessus du piston est nulle, alors que celle sous celui-ci est égale à la pression de craquage de ses valves plus la friction entre les joints toriques et le bâti de la pompe. Cette dernière est évalué à l'aide du pourcentage de compression des joints toriques, alors que la pression de craquage est une fonction de la précharge sur les ressorts des valves à bille. 
-		\item La pièce cède-t-elle sous la déformation causée par l'encliquetage? \par
-			Calculer la déformation de la pièce encliquetée et la comparer à la déformation maximale possible du matériau en fonction de son orientation d'impression.
-	\end{enumerate}
-\subsubsection{Données techniques}
-\begin{center}
-	\begin{longtable}{|c c c|}
-		\hline
-		Paramètre & symbole & valeur de base\\
-		\hline
-		Rayon des valves du piston & $r_{valve}$ & 4 mm\\
-		Constante du ressort de valve & $K_{ressort}$ & 1 N/mm\\
-		Précharge sur le ressort de valve & S & 0,3 mm\\
-		Pression de craquage des valves du piston & $P_{craq}$ & N/A\\
-		Chargement en compression par mm de joint torique & N/A& 1,75 N/mm\footnote{https://engineeringproductdesign.com/knowledge-base/o-ring-compression-force/}\\
-		Diamètre intérieur du joint torique autour de la tête du piston & $ID_{tête}$ & 32,38 mm\\
-		Diamètre intérieur du joint torique autour de la tige du piston & $ID_{tige}$ & 5,71 mm\\
-		Force Normale sur les joints torique & $F_{N}$ & N/A\\
-		Coefficient de frottement cinétique du caouchouc sur le nylon & $\mu_{f}$ & 0,5\footnote{https://www.engineeringtoolbox.com/friction-coefficients-d_778.html}\\
-		Force de friction entre les joints toriques et le bâti de la pompe & $F_{friction}$ & N/A\\
-		masse du piston & $m_{piston}$ & 13,3 g\\
-		Aire de la couronne du piston & $A_{piston}$ & 1,07e-3 m^2\\
-		Force maximale pour déplacer le piston vers le bas & $F_{piston}$ & N/A\\
-		Force que doit exercer l'opérateur & $F_{op}$ & N/A\\
-		Distance entre le pivot et l'endroit où l'opérateur appuie & $L_{1}$ & 145 mm\\
-		Distance entre le pivot et la tige du piston & $L_{2}$ & 32 mm\\
-		Moment de force autour du point pivot & $M_{O}$ & 0 N/m\\
-		Force reprise par l'encliquetage & $F_{P}$ & N/A\\
-		Moment d'inertie de la section de la pièce encliquetée & I & N/A\\
-		Module de Young du Nylon chargé & E & 1,65 GPa\footnote{https://www.materialise.com/en/industrial/3d-printing-materials/pa12-sls}\\
-		Facteur de type de supports (deux bouts fixes) & K & 0,5\footnote{Mechanics of Materials Hibbeler 10e édition}\\
-		Chargement critique en flambage & $P_{crit}$ & N/A\\
-		Facteur de sécurité en flambage & $n_{flamb}$ & N/A\\
-		Contrainte en compression sur l'encliquetage & $\sigma_{comp}$ & N/A\\
-		Contrainte normale critique du nylon & $\sigma_{crit}$ & 48 MPa\\
-		Facteur de sécurité en contrainte normale & $n_{\sigma}$ & N/A\\
-		Déformation à la rupture & $\varepsilon_{ruptureXY}$ & 16\%\\
-		Déformation maximale & $\varepsilon_{max}$ & N/A\\
-		Longueur des faisceaux & L & 11 mm\\
-		Diamètre au crochet & D1 & 8 mm\\
-		Diamètre de la pièce encliquetée & D2 & 6 mm\\
-		Espacement entre les deux faisceaux & d & 2,2 mm\\
-		Largeur d'un faisceau & $h_{0}$ & N/A\\
-		Déflection maximale des faisceaux & Y & N/A\\
-		Déformation lors de l'encliquetage & $\varepsilon$ & N/A\\
-		Facteur de sécurité & n & N/A\\
-		\hline
-	\end{longtable}
-\end{center}
+\subsection{Calcul de faisabilité (\#1)}
+\subsection{Calcul \#2}
+\subsection{Calcul \#3}
+\subsection{Calcul \#4}
 
-\subsubsection{Équations}
-\begin{itemize}
-	\item Contrainte normale sur la piècce encliquetée:
-\begin{equation}
-	A_{\text{valve}} = \pi*r_{\text{valve}}^2
-\end{equation}
-\[ A_{valve} = 50,26*10e-6 m^2 \]
-\begin{equation}
-	P_{\text{craq}} = \frac{K_{\text{ressort}}*S}{A_{\text{valve}}}
-\end{equation}
-\[ P_{craq} = 5,97 kPa \]
-\begin{equation}
-	F_{N} = 1,75*\pi*(2*ID_{tête}+ID_{tige})
-\end{equation}
-\[ F_{N} = 387,43 N \]
-\begin{equation}
-	F_{\text{friction}} = \mu_{\text{f}}*F_{N}
-\end{equation}
-\[ F_{friction} = 193,71 N \]
-\begin{equation}
-	F_{\text{piston}} = A_{piston}*P_{craq} + F_{friction} - g*m_{piston}
-\end{equation}
-\[ F_{piston} = 200 N \]
-\begin{equation}
-	\Sigma M_{O} = F_{op}*L_{1} - F_{Piston}*L_{2} = 0
-\end{equation}
-\[ F_{op} = \frac{L{2}}{L{1}}*F_{piston} \]
-\[ F_{op} = 44,14 N \]
-\begin{equation}
-	F_{\text{P}} = F_{op} + F_{piston}
-\end{equation}
-\[ F_{P} = 244,14 N \]
-\begin{equation}
-	I = \frac{\pi*D_{2}^4}{64}
-\end{equation}
-\[ I = 63,62e-12 m^4 \]
-\begin{equation}
-	P_{\text{crit}} = \frac{\pi^2*E*I}{(K*L)^2}
-\end{equation}
-\[ P_{crit} = 34,25 KN \]
-\begin{equation}
-	n_{\text{flamb}} = \frac{P_{crit}}{F_{P}}
-\end{equation}
-\[ n_{flamb} = 140,28 \]
-\begin{equation}
-	\sigma_{\text{comp}} = \frac{4*F_{P}}{\pi*D_{2}^2-(D_{2}*d)}
-\end{equation}
-\[ \sigma_{comp} = 9,78 MPa \]
-\begin{equation}
-	n_{\text{comp}} = \frac{\sigma_{crit}}{\sigma_{comp}}
-\end{equation}
-\[ n_{comp} = 4,91 \]
-
-	\item Déformation de la pièce encliquetée:
-\begin{equation}
-	\varepsilon_{\text{max}} = 0.2\,\varepsilon_{\text{ruptureXY}}}
-\end{equation}
-\[ \varepsilon_{max} = 20\% * 16\% = 3,2\% \]
-
-\begin{equation}
-	h_{0} = \frac{D2-d}{2}
-\end{equation}
-\[ h_{0} = \frac{6-2,2}{2} = 1,9 mm \]
-
-\begin{equation}
-	Y = \frac{d}{2}
-\end{equation}
-\[ Y = \frac{2,2}{2} = 1,1 mm \]
-
-\begin{equation}
-	\varepsilon = \frac{3*Y*h_{0}}{2*L^2}
-\end{equation}
-\[ \varepsilon = \frac{3*1,1*1,9}{2*11^2} = 2,59\% \]
-
-\begin{equation}
-	n = \frac{\varepsilon_{max}}{\varepsilon}
-\end{equation}
-\[ n = \frac{3,2}{2,59} = 1,235 > 1 \]
-\end{itemize}
+\section{Conclusion}
+    \subsection{Fiche de spécifications techniques}
+    \begin{figure}[H] 
+	    \includegraphics[width=1.1\linewidth]{./assets/Specs.pdf}
+    \end{figure}
 \newpage{}
 
 \printbibliography[ % Prints the bibliography
