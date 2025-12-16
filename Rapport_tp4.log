@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  4 DEC 2025 10:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  16 DEC 2025 11:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -980,250 +980,128 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 110--111
 
 
 [4 <./assets/Z_pref1.pdf>]
+<./assets/Croquis_CB.pdf, id=322, 2769.17863pt x 2141.70035pt>
+File: ./assets/Croquis_CB.pdf Graphic file (type pdf)
+<use ./assets/Croquis_CB.pdf>
+Package pdftex.def Info: ./assets/Croquis_CB.pdf  used on input line 117.
+(pdftex.def)             Requested size: 500.77129pt x 387.28682pt.
 
-LaTeX Warning: File `./assets/Croquis_SR.pdf' not found on input line 116.
-
-
-./Rapport_tp4.tex:116: Package pdftex.def Error: File `./assets/Croquis_SR.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.116 ...h=1.1\linewidth]{./assets/Croquis_SR.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 116.
-(/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 116--117
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 117--118
 [][] 
  []
 
 
 
 [5 <./assets/Z_pref2.pdf>]
+<./assets/Signatures/Signature_CB.png, id=379, 607.26875pt x 108.405pt>
+File: ./assets/Signatures/Signature_CB.png Graphic file (type png)
+<use ./assets/Signatures/Signature_CB.png>
+Package pdftex.def Info: ./assets/Signatures/Signature_CB.png  used on input line 123.
+(pdftex.def)             Requested size: 204.85846pt x 36.56938pt.
+<./assets/Croquis_SR.pdf, id=380, 794.97pt x 614.295pt>
+File: ./assets/Croquis_SR.pdf Graphic file (type pdf)
+<use ./assets/Croquis_SR.pdf>
+Package pdftex.def Info: ./assets/Croquis_SR.pdf  used on input line 128.
+(pdftex.def)             Requested size: 500.77129pt x 386.9704pt.
 
-LaTeX Warning: File `./assets/Signature_SR.jpg' not found on input line 122.
-
-
-./Rapport_tp4.tex:122: Package pdftex.def Error: File `./assets/Signature_SR.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.122 ...1.1\linewidth]{./assets/Signature_SR.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 122--123
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 128--129
 [][] 
  []
 
 
 
-[6]
+[6 <./assets/Croquis_CB.pdf, page is rotated 270 degrees> <./assets/Signatures/Signature_CB.png (PNG copy)>]
+<./assets/Signatures/Signature_SR.png, id=391, 446.66875pt x 131.49126pt>
+File: ./assets/Signatures/Signature_SR.png Graphic file (type png)
+<use ./assets/Signatures/Signature_SR.png>
+Package pdftex.def Info: ./assets/Signatures/Signature_SR.png  used on input line 135.
+(pdftex.def)             Requested size: 204.85846pt x 60.30814pt.
+<./assets/Croquis_PC.pdf, id=392, 1909.88335pt x 2356.30411pt>
+File: ./assets/Croquis_PC.pdf Graphic file (type pdf)
+<use ./assets/Croquis_PC.pdf>
+Package pdftex.def Info: ./assets/Croquis_PC.pdf  used on input line 140.
+(pdftex.def)             Requested size: 500.77129pt x 617.80205pt.
 
-LaTeX Warning: File `./assets/Croquis_WH.pdf' not found on input line 127.
-
-
-./Rapport_tp4.tex:127: Package pdftex.def Error: File `./assets/Croquis_WH.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 ...h=1.1\linewidth]{./assets/Croquis_WH.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 127--128
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 140--141
 [][] 
  []
 
 
 
-[7]
-
-LaTeX Warning: File `./assets/Signature_WH.jpg' not found on input line 133.
-
-
-./Rapport_tp4.tex:133: Package pdftex.def Error: File `./assets/Signature_WH.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.133 ...1.1\linewidth]{./assets/Signature_WH.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[7 <./assets/Croquis_SR.pdf> <./assets/Signatures/Signature_SR.png (PNG copy)>]
+<./assets/Signatures/Signature_PC.png, id=527, 225.84375pt x 117.43875pt>
+File: ./assets/Signatures/Signature_PC.png Graphic file (type png)
+<use ./assets/Signatures/Signature_PC.png>
+Package pdftex.def Info: ./assets/Signatures/Signature_PC.png  used on input line 146.
+(pdftex.def)             Requested size: 204.85846pt x 106.53252pt.
 
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 133--134
+[8 <./assets/Croquis_PC.pdf>]
+<./assets/Croquis_WH.pdf, id=537, 794.97pt x 614.295pt>
+File: ./assets/Croquis_WH.pdf Graphic file (type pdf)
+<use ./assets/Croquis_WH.pdf>
+Package pdftex.def Info: ./assets/Croquis_WH.pdf  used on input line 151.
+(pdftex.def)             Requested size: 500.77129pt x 386.9704pt.
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 151--152
+[][] 
+ []
+
+<./assets/Signatures/Signature_WH.png, id=538, 589.20125pt x 98.3675pt>
+File: ./assets/Signatures/Signature_WH.png Graphic file (type png)
+<use ./assets/Signatures/Signature_WH.png>
+Package pdftex.def Info: ./assets/Signatures/Signature_WH.png  used on input line 157.
+(pdftex.def)             Requested size: 204.85846pt x 34.20097pt.
+<./assets/Grille.png, id=539, 1439.3775pt x 528.97626pt>
+File: ./assets/Grille.png Graphic file (type png)
+<use ./assets/Grille.png>
+Package pdftex.def Info: ./assets/Grille.png  used on input line 162.
+(pdftex.def)             Requested size: 500.77129pt x 184.03867pt.
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 162--163
 [][] 
  []
 
 
 
-[8]
+[9 <./assets/Signatures/Signature_PC.png (PNG copy)> <./assets/Croquis_WH.pdf> <./assets/Signatures/Signature_WH.png (PNG copy)>]
 
-LaTeX Warning: File `./assets/Croquis_PC.pdf' not found on input line 138.
-
-
-./Rapport_tp4.tex:138: Package pdftex.def Error: File `./assets/Croquis_PC.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138 ...h=1.1\linewidth]{./assets/Croquis_PC.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: File `./assets/Specs.pdf' not found on input line 179.
 
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 138--139
-[][] 
- []
-
-
-
-[9]
-
-LaTeX Warning: File `./assets/Signature_PC.jpg' not found on input line 144.
-
-
-./Rapport_tp4.tex:144: Package pdftex.def Error: File `./assets/Signature_PC.jpg' not found: using draft setting.
+./Rapport_tp4.tex:179: Package pdftex.def Error: File `./assets/Specs.pdf' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.144 ...1.1\linewidth]{./assets/Signature_PC.jpg}
+l.179 ...[width=1.1\linewidth]{./assets/Specs.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 144--145
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 179.
+(/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 179--180
 [][] 
  []
 
 
 
-[10]
-
-LaTeX Warning: File `./assets/Croquis_CB.pdf' not found on input line 149.
-
-
-./Rapport_tp4.tex:149: Package pdftex.def Error: File `./assets/Croquis_CB.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.149 ...h=1.1\linewidth]{./assets/Croquis_CB.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 149--150
-[][] 
- []
-
-
+[10 <./assets/Grille.png (PNG copy)>]
 
 [11]
-
-LaTeX Warning: File `./assets/Signature_CB.jpg' not found on input line 155.
-
-
-./Rapport_tp4.tex:155: Package pdftex.def Error: File `./assets/Signature_CB.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.155 ...1.1\linewidth]{./assets/Signature_CB.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 155--156
-[][] 
- []
+Overfull \vbox (185.69238pt too high) has occurred while \output is active []
 
 
 
 [12]
 
-LaTeX Warning: File `./assets/Grille.pdf' not found on input line 159.
+LaTeX Warning: Empty bibliography on input line 183.
 
-
-./Rapport_tp4.tex:159: Package pdftex.def Error: File `./assets/Grille.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.159 ...width=1.1\linewidth]{./assets/Grille.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 159--160
-[][] 
- []
-
-
-
-[13]
-
-LaTeX Warning: File `./assets/Specs.pdf' not found on input line 176.
-
-
-./Rapport_tp4.tex:176: Package pdftex.def Error: File `./assets/Specs.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 ...[width=1.1\linewidth]{./assets/Specs.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 176--177
-[][] 
- []
-
-
-
-[14]
-
-[15]
-Overfull \vbox (226.44238pt too high) has occurred while \output is active []
-
-
-
-[16]
-
-LaTeX Warning: Empty bibliography on input line 180.
-
-runsystem(latexminted cleantemp  --timestamp 20251204102505 48C23D74E4E58F0BF2B83D748395D021)...executed safely (allowed).
+runsystem(latexminted cleantemp  --timestamp 20251216112638 48C23D74E4E58F0BF2B83D748395D021)...executed safely (allowed).
 
 (./Rapport_tp4.aux)
  ***********
@@ -1231,24 +1109,24 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `Rapport_tp4.out' has not changed.
-(rerunfilecheck)             Checksum: 14506E98E121C8812E8AC0D77024D38C;5494.
+(rerunfilecheck)             Checksum: 6F8890B07DBD63E17E30C4BB3AA2D3A5;5494.
 Package logreq Info: Writing requests to 'Rapport_tp4.run.xml'.
 \openout1 = `Rapport_tp4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26245 strings out of 475142
- 509552 string characters out of 5765945
+ 26034 strings out of 475142
+ 502771 string characters out of 5765945
  1554894 words of memory out of 5000000
- 48882 multiletter control sequences out of 15000+600000
+ 48675 multiletter control sequences out of 15000+600000
  603078 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,6n,81p,700b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,81p,700b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Rapport_tp4.pdf (18 pages, 2657349 bytes).
+Output written on Rapport_tp4.pdf (14 pages, 15685392 bytes).
 PDF statistics:
- 470 PDF objects out of 1000 (max. 8388607)
- 379 compressed objects within 4 object streams
- 60 named destinations out of 1000 (max. 500000)
- 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 601 PDF objects out of 1000 (max. 8388607)
+ 385 compressed objects within 4 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 276 words of extra memory for PDF output out of 10000 (max. 10000000)
 

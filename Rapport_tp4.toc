@@ -8,19 +8,19 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Lot \#3}{4}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Lot \#4}{5}{subsubsection.2.2.2}%
 \contentsline {section}{\numberline {3}Croquis à main levé}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Concept \#1: Samuel Roy}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Concept \#2: William Hamilton}{8}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Concept \#3: Paul Charvet}{10}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Concept \#4: Charles Bouthillier}{12}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Grille de sélection}{14}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Justification du choix}{16}{subsection.3.6}%
-\contentsline {section}{\numberline {4}Calculs}{16}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Calcul de faisabilité (\#1)}{16}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Calcul \#2: flexion des dents de la roue dentée (pièce \#1)}{16}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Calcul \#3: flexion de l'arbre de la roue dentée (pièce \#17)}{16}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Calcul \#4: torsion de la vis sans vis sans fin (pièce \#2)}{16}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Calcul \#5: rupture du mur de la vis sans fin (pièce \#14)}{16}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Calcul \#6: force nécessaire pour maintenir la vis de pressin (pièce \#11)}{16}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Calcul \#7: flambage de la vis ACME (pièce \#7)}{16}{subsection.4.7}%
-\contentsline {section}{\numberline {5}Conclusion}{16}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Fiche de spécifications techniques}{16}{subsection.5.1}%
+\contentsline {subsection}{\numberline {3.1}Concept \#1: Charles Bouthillier}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Concept \#2: Samuel Roy}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Concept \#3: Paul Charvet}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Concept \#4: William Hamilton}{9}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Grille de sélection}{10}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Justification du choix}{10}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Calculs}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Calcul de faisabilité (\#1)}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Calcul \#2: flexion des dents de la roue dentée (pièce \#1)}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Calcul \#3: flexion de l'arbre de la roue dentée (pièce \#17)}{12}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Calcul \#4: torsion de la vis sans vis sans fin (pièce \#2)}{12}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Calcul \#5: rupture du mur de la vis sans fin (pièce \#14)}{12}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Calcul \#6: force nécessaire pour maintenir la vis de pressin (pièce \#11)}{12}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Calcul \#7: flambage de la vis ACME (pièce \#7)}{12}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Conclusion}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Fiche de spécifications techniques}{12}{subsection.5.1}%
