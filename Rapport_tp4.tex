@@ -253,7 +253,7 @@ Enfin, nous avons considéré que la géométrie conique conférait une robustes
 		Paramètre & symbole & valeur de base\\
 		\hline
 		masse à soulever & $M_{charge}$ & 295,5 [kg]\\
-	constante de gravité & g & 9,81 [ $ms^{-2}}$ ]\\
+	constante de gravité & g & 9,81 [ $ms^{-2}$ ]\\
 	pas de la vis ACME & P & 0,00254 [m]\\
 	Diamètre primitif vis ACME & $\diameter_s$ & 0,011285 [m]\\
 	lead angle vis ACME& $\lambda_v$ & N/A [$\circ$]\\
@@ -425,7 +425,13 @@ Couple trop grand, il faut diminuer la charge sur le système
 	\end{tabular}
 \end{center}
 \end{table}
-
+\subsubsection{signatures}
+    \begin{figure}[H] 
+	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_WH.png}
+    \end{figure}
+    \begin{figure}[H] 
+	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_CB.png}
+    \end{figure}
 \subsection{Calcul \#2: flexion des dents de la roue dentée (pièce \#1)}
 \subsubsection{explication des contraintes physiques}
 Les dents de la roue dentée subissent une force dans le plan de le roue aux niveaux des engrenages avec le pignon et la vis sans fin. Ces forces sont causées par la transmission de puissance de la vis sans fin au pinion par le bias de la roue dentée. Elles sont donc égales puisque proportionelle au couple passant par la roue, ainsi qu'à la distance centre-point d'application, qui est la même.Ces forces tendent à faire fléchir les dents, d'où l'intérêt du calcul d'un bris flexural. 
@@ -437,9 +443,9 @@ Les dents de la roue dentée subissent une force dans le plan de le roue aux niv
 		\hline
 		Paramètre & symbole & valeur de base\\
 		\hline
-		largeur de la dent & t & VAL [m]\\
-		hauteur de la dent & l & VAL [m]\\
-		profondeur de contact & F & VAL [m]\\
+		largeur de la dent & t & 0,002 [m]\\
+		hauteur de la dent & l & 0,00222 [m]\\
+		profondeur de contact & F & 0,017776 [m]\\
 		Couple nominal à la roue dentée & $T_{b}$ & 3,354 [Nm]\\
 		diamètre primitif de la roue dentée & $d_{wg}$ & 0,070 [m]\\
 		force tangentielle sur la roue dentée & $W_{twg}$ & N/A [N]\\
@@ -459,6 +465,7 @@ Calcul : Utiliser l'équation de Lewis appliquée aux engrenages pour trouver la
   \item facteur de sécurité en opération normale
 
 	  \[ F.S = \frac{S_{e}}{\sigma_b}=2,34 > 1,25 \]
+  \end{enumarate}
 Les dents de la roue dentée ne devraient pas fléchir en opération normale
 
 \subsubsection{cas en surcharge}
@@ -647,11 +654,6 @@ Le facteur de sécurité étant loin de 1 même en surcharge, la vis ACME ne dev
 	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_SR.png}
     \end{figure}
 
-\section{Conclusion}
-    \subsection{Fiche de spécifications techniques}
-    \begin{figure}[H] 
-	    \includegraphics[width=1.1\linewidth]{./assets/Specs.pdf}
-    \end{figure}
 \newpage{}
 
 \printbibliography[ % Prints the bibliography

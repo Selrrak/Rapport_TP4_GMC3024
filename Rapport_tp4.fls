@@ -423,6 +423,14 @@ INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
+INPUT ./assets/Signatures/Signature_WH.png
+INPUT ./assets/Signatures/Signature_WH.png
+INPUT ./assets/Signatures/Signature_WH.png
+INPUT ./assets/Signatures/Signature_WH.png
+INPUT ./assets/Signatures/Signature_CB.png
+INPUT ./assets/Signatures/Signature_CB.png
+INPUT ./assets/Signatures/Signature_CB.png
+INPUT ./assets/Signatures/Signature_CB.png
 INPUT ./assets/DCL/dent_wg.png
 INPUT ./assets/DCL/dent_wg.png
 INPUT ./assets/DCL/dent_wg.png
@@ -460,10 +468,6 @@ INPUT ./assets/Signatures/Signature_SR.png
 INPUT ./assets/Signatures/Signature_SR.png
 INPUT ./assets/Signatures/Signature_SR.png
 INPUT ./assets/Signatures/Signature_SR.png
-INPUT /usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT /usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT /usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
 INPUT Rapport_tp4.aux
 INPUT ./Rapport_tp4.out
 INPUT ./Rapport_tp4.out
@@ -477,5 +481,4 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb
-INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb
