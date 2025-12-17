@@ -418,9 +418,11 @@ INPUT ./assets/DCL/ACME_screw.png
 INPUT ./assets/DCL/ACME_screw.png
 INPUT ./assets/DCL/ACME_screw.png
 INPUT ./assets/DCL/ACME_screw.png
+INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
-INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
 INPUT /usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd

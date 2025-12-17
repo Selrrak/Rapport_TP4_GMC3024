@@ -252,7 +252,7 @@ Enfin, nous avons considéré que la géométrie conique conférait une robustes
 		\hline
 		Paramètre & symbole & valeur de base\\
 		\hline
-	masse à soulever & m & 295,5 [kg]\\
+		masse à soulever & $M_{charge}$ & 295,5 [kg]\\
 	constante de gravité & g & 9,81 [ \[m\,s^{-2}} \] ]\\
 	pas de la vis ACME & P & 0,00254 [m]\\
 	Diamètre primitif vis ACME & $\diameter_s$ & 0,011285 [m]\\
@@ -262,7 +262,7 @@ Enfin, nous avons considéré que la géométrie conique conférait une robustes
 	coeff. friction nylon-nylon & f & 0,25 [-]\\
 	efficacité & $\varepsilon$ & N/A [-]\\
 	Torque pour soulever la charge & $T_c$ & N/A [Nm]\\
-	rayon primitif du pinion & $R_g$ & 0,01915 [m]
+	rayon primitif du pinion & $R_g$ & 0,01915 [m]\\
 	Perte de torque en friction au pinion & $T_f$ & N/A [Nm]\\
 	Torque au pinion & $T_a$ & N/A [Nm]\\
 	nombre de dents du pinion & $Z_a$ & 29 [-]\\
@@ -271,7 +271,7 @@ Enfin, nous avons considéré que la géométrie conique conférait une robustes
 	angle de pression & $\phi_n$ & 20 [$\circ$]\\
 	efficacité engrenage vis sans fin & $e_w$ & N/A [-]\\
 	nombre de filets vis sans fin & $Z_w$ & 2 [-]\\
-	Couple du moteur & $T_{moteur}$ & N/A [Nm]\\
+	Couple du moteur & $C_{mot}$ & N/A [Nm]\\
 
 		\hline
 	\end{tabular}
@@ -284,24 +284,152 @@ Enfin, nous avons considéré que la géométrie conique conférait une robustes
 
 \[ \varepsilon = \frac{tan(\psi)}{tan(\psi+atan(\mu))} = 0,1208 \]
 
-\[ T_c = \frac{m*g*P}{2\pi*\varepsilon} = 9,7 \]
+\[ T_c = \frac{M_{charge}*g*P}{2\pi*\varepsilon} = 9,7 \]
   \item Transmission de torque entre la roue dentée et le pinion
-\[ T_f = \frac{1}{2}f*m*g*R_g= \]
-\[ T_b = \eta*\frac{Z_b}{Z_a}*T_a = 17,37 \]
+	  \[ T_f = \frac{1}{2}f*M_{charge}*g*R_g=6,94 \]
+\[ T_a = T_f+ T_c = 16,64  \]
+\[ T_b = \eta*\frac{Z_b}{Z_a}*T_a = 29,21 \]
   \item Transmission de torque entre la roue dentée et la vis sans fin
 \[ e_w = \frac{cos(\phi_n) - f*tan(\psi)}{cos(\phi_n) + f*cot(\psi)} = 0,18388 \]
-\[ T_{moteur} = T_{worm} = \frac{T_b*Z_w}{e_w*Z_b} = 3,57 > 2,1 Nm \]
+\[ C_{mot} = T_{worm} = \frac{T_b*Z_w}{e_w*Z_b} = 6 > 1,2 Nm \]
 Couple trop grand, il faut diminuer la charge sur le système
 \end{enumerate}
-	\subsubsection{couple pour soulever une charge optimale (200 lbs)}
+	\subsubsection{couple pour soulever une charge optimale (34/75 kg/lbs}
+\begin{center}
+	\begin{tabular}{|c c c|}
+		\hline
+		Paramètre & symbole & valeur de base\\
+		\hline
+		masse à soulever & $M_{charge}$ & 34 [kg]\\
+		\hline
+	\end{tabular}
+\end{center}
+
+\begin{enumerate}
+  \renewcommand{\labelenumi}{\alph{enumi})}
+
+  \item Torque pour soulever la charge
+	  \[ T_c = \frac{M_{charge}*g*P}{2\pi*\varepsilon} = 1,114 \]
+  \item Transmission de torque entre la roue dentée et le pinion
+	  \[ T_f = \frac{1}{2}f*M_{charge}*g*R_g=0,797 \]
+\[ T_a = T_f+ T_c = 1,911  \]
+\[ T_b = \eta*\frac{Z_b}{Z_a}*T_a = 3,354 \]
+  \item Transmission de torque entre la roue dentée et la vis sans fin
+\[ C_{mot} = T_{worm} = \frac{T_b*Z_w}{e_w*Z_b} = 0,689 < 1,2 Nm \]
+\end{enumerate}
 	\subsubsection{masse pour un couple moteur unitaire}
+\begin{center}
+	\begin{tabular}{|c c c|}
+		\hline
+		Paramètre & symbole & valeur de base\\
+		\hline
+		couple moteur & $C_{mot}$ & 1 [Nm]\\
+		masse à soulever & $M_{charge}$ & N\A [kg]\\
+		\hline
+	\end{tabular}
+\end{center}
+\begin{enumerate}
+  \renewcommand{\labelenumi}{\alph{enumi})}
+  \item Transmission de torque entre le moteur et la roue dentée
+\[ T_{w} = C_{mot} = 1 \]
+\[ T_{b} = \frac{T_w*e_w*Z_b}{Z_w}= 4,8728 \]
+  \item Transmission de torque entre la roue dentée et le pinion
+\[ T_a = \frac{1}{\eta}*\frac{Z_a}{Z_b}*T_b = 2,72 \]
+\[ T_c = T_a - T_f\]
+  \item Torque pour soulever la charge
+	  \[ M_{charge} = \frac{(T_a-T_f)*2\pi*\varepsilon}{g*P} \]
+
+	  \[ M_{charge} = \frac{(T_a-\frac{1}{2}f*M_{charge}*g*R_g)*2\pi*\varepsilon}{g*P} \]
+
+	  \[ M_{charge} = \frac{2*T_a*\pi*\varepsilon}{g*(P+f*R_g*\pi*\varepsilon)} = 48,30 kg \]
+
+\end{enumerate}
+
 	\subsubsection{temps de montée}
+\begin{center}
+	\begin{tabular}{|c c c|}
+		\hline
+		Paramètre & symbole & valeur de base\\
+		\hline
+		vitesse du moteur & $N_{mot}$ & 233 [rpm]\\
+		nombre de filets de la vis sans fin & Z_w & 2 [-]\\
+		nombre de dents de la roue dentée & Z_b & 53 [-]\\
+		vitesse de la roue dentée & \omega_b & N/A [rpm]\\
+		nombre de dents du pinion & Z_a & 29 [-]\\
+		vitesse dy pinion & \omega_a & N/A [-]\\
+		distance de levage & d & 0,04 [m]\\
+		Pas de la vis ACME & P & 0,00254 [m]\\
+		temps de levage & t_{montée} & N/A [s]\\
+		\hline
+	\end{tabular}
+\end{center}
+\[ \omega_b = \frac{N_{mot}*Z_w}{Z_b} = 8,79 \]
+
+\[ \omega_a = \frac{\omega_{b}*Z_b}{Z_a} = 16,069 [RPM] = 0,268 [Hz] \]
+
+\[ t_{montée} = \frac{d}{\omega_{a}*P} = 58,8 < 60 \]
+
+
+\begin{center}
+	\begin{tabular}{|c c c|}
+		\hline
+		Paramètre & symbole & valeur de base\\
+		\hline
+		couple moteur & $C_{mot\_boost}$ & 2,2 [Nm]\\
+		masse à soulever & $M_{surcharge}$ & N/A [kg]\\
+		\hline
+	\end{tabular}
+\end{center}
+
+\subsubsection{Évaluer la surcharge}
+\begin{center}
+	\begin{tabular}{|c c c|}
+		\hline
+		Paramètre & symbole & valeur de base\\
+		\hline
+		couple moteur & $C_{mot\_boost}$ & 2,2 [Nm]\\
+		masse à soulever & $M_{surcharge}$ & N/A [kg]\\
+		\hline
+	\end{tabular}
+\end{center}
+\begin{enumerate}
+  \renewcommand{\labelenumi}{\alph{enumi})}
+  \item Transmission de torque entre le moteur et la roue dentée
+\[ T_{w} = C_{mot\_boost} = 2,2 \]
+\[ T_{b} = \frac{T_w*e_w*Z_b}{Z_w}= 10,72 \]
+  \item Transmission de torque entre la roue dentée et le pinion
+\[ T_a = \frac{1}{\eta}*\frac{Z_a}{Z_b}*T_b = 5,984 \]
+\[ T_c = T_a - T_f\]
+  \item Torque pour soulever la charge
+	  \[ M_{surcharge} = \frac{(T_a-T_f)*2\pi*\varepsilon}{g*P} \]
+
+	  \[ M_{surcharge} = \frac{(T_a-\frac{1}{2}f*M_{surcharge}*g*R_g)*2\pi*\varepsilon}{g*P} \]
+
+	  \[ M_{surcharge} = \frac{2*T_a*\pi*\varepsilon}{g*(P+f*R_g*\pi*\varepsilon)} = 106,26 kg \]
+
+\end{enumerate}
+\begin{table}[h]
+\caption{Spécifications du système}
+\begin{center}
+	\begin{tabular}{|c c c|}
+		\hline
+		Paramètre & symbole & valeur de base\\
+		\hline
+		couple moteur d'opération & $C_{mot}$ & 0,689 [Nm]\\
+		masse admissible & $M_{charge}$ & 34 [kg]\\
+		vitesse du moteur & $N_{mot}$ & 233 [rpm]\\
+		temps de levage & $t_{montée}$ & 58,8 [s]\\
+		limite de surcharge & $M_{surcharge}$ & 106,26 [kg]\\
+		\hline
+	\end{tabular}
+\end{center}
+\end{table}
+
 \subsection{Calcul \#2: flexion des dents de la roue dentée (pièce \#1)}
 \subsection{Calcul \#3: flexion de l'arbre de la roue dentée (pièce \#17)}
 \subsection{Calcul \#4: torsion de la vis sans vis sans fin (pièce \#2)}
-\subsection{Calcul \#5: rupture du mur de la vis sans fin (pièce \#14)}
-\subsection{Calcul \#6: force nécessaire pour maintenir la vis de pressin (pièce \#11)}
-\subsection{Calcul \#7: flambage de la vis ACME (pièce \#7)}
+\subsection{Calcul \#5: force nécessaire pour maintenir la vis de pressin (pièce \#11)}
+\subsection{Calcul \#6: flambage de la vis ACME (pièce \#7)}
 
 \section{Conclusion}
     \subsection{Fiche de spécifications techniques}
