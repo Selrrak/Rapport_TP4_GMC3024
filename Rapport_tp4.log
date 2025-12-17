@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  17 DEC 2025 05:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  17 DEC 2025 13:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -899,7 +899,7 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 59.
  (/usr/share/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-<./assets/Université_Laval_logo_et_texte.svg.png, id=265, 2569.6pt x 1116.17pt>
+<./assets/Université_Laval_logo_et_texte.svg.png, id=233, 2569.6pt x 1116.17pt>
 File: ./assets/Université_Laval_logo_et_texte.svg.png Graphic file (type png)
 <use ./assets/Université_Laval_logo_et_texte.svg.png>
 Package pdftex.def Info: ./assets/Université_Laval_logo_et_texte.svg.png  used on input line 67.
@@ -922,14 +922,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 <to be read again> 
                    \relax 
 l.32 ...4.2.7}signatures}{26}{subsubsection.4.2.7}
-                                                  % [2]
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.64 ...4.6.7}signatures}{30}{subsubsection.4.6.7}
-                                                  % [3])
+                                                  % [2])
 \tf@toc=\write6
 \openout6 = `Rapport_tp4.toc'.
 
@@ -940,8 +933,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 <to be read again> 
                    \relax 
 l.83 \newpage
-              [4]
-<./assets/Explose.png, id=353, 1386.17876pt x 1065.9825pt>
+              [3]
+<./assets/Explose.png, id=309, 1386.17876pt x 1065.9825pt>
 File: ./assets/Explose.png Graphic file (type png)
 <use ./assets/Explose.png>
 Package pdftex.def Info: ./assets/Explose.png  used on input line 89.
@@ -951,7 +944,7 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 89--90
 [][] 
  []
 
-<./assets/XY_pref1.pdf, id=354, 794.97pt x 614.295pt>
+<./assets/XY_pref1.pdf, id=310, 794.97pt x 614.295pt>
 File: ./assets/XY_pref1.pdf Graphic file (type pdf)
 <use ./assets/XY_pref1.pdf>
 Package pdftex.def Info: ./assets/XY_pref1.pdf  used on input line 97.
@@ -964,7 +957,7 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 97--98
 
 
 [1 <./assets/Explose.png (PNG copy)>]
-<./assets/XY_pref2.pdf, id=360, 794.97pt x 614.295pt>
+<./assets/XY_pref2.pdf, id=316, 794.97pt x 614.295pt>
 File: ./assets/XY_pref2.pdf Graphic file (type pdf)
 <use ./assets/XY_pref2.pdf>
 Package pdftex.def Info: ./assets/XY_pref2.pdf  used on input line 101.
@@ -977,7 +970,7 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 101--102
 
 
 [2 <./assets/XY_pref1.pdf>]
-<./assets/Z_pref1.pdf, id=416, 794.97pt x 614.295pt>
+<./assets/Z_pref1.pdf, id=373, 794.97pt x 614.295pt>
 File: ./assets/Z_pref1.pdf Graphic file (type pdf)
 <use ./assets/Z_pref1.pdf>
 Package pdftex.def Info: ./assets/Z_pref1.pdf  used on input line 107.
@@ -990,7 +983,7 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 107--108
 
 
 [3 <./assets/XY_pref2.pdf>]
-<./assets/Z_pref2.pdf, id=473, 794.97pt x 614.295pt>
+<./assets/Z_pref2.pdf, id=429, 794.97pt x 614.295pt>
 File: ./assets/Z_pref2.pdf Graphic file (type pdf)
 <use ./assets/Z_pref2.pdf>
 Package pdftex.def Info: ./assets/Z_pref2.pdf  used on input line 111.
@@ -1003,7 +996,7 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 111--112
 
 
 [4 <./assets/Z_pref1.pdf>]
-<./assets/Croquis_CB.pdf, id=530, 2769.17863pt x 2141.70035pt>
+<./assets/Croquis_CB.pdf, id=487, 2769.17863pt x 2141.70035pt>
 File: ./assets/Croquis_CB.pdf Graphic file (type pdf)
 <use ./assets/Croquis_CB.pdf>
 Package pdftex.def Info: ./assets/Croquis_CB.pdf  used on input line 118.
@@ -1016,12 +1009,12 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 118--119
 
 
 [5 <./assets/Z_pref2.pdf>]
-<./assets/Signatures/Signature_CB.png, id=586, 607.26875pt x 108.405pt>
+<./assets/Signatures/Signature_CB.png, id=543, 607.26875pt x 108.405pt>
 File: ./assets/Signatures/Signature_CB.png Graphic file (type png)
 <use ./assets/Signatures/Signature_CB.png>
 Package pdftex.def Info: ./assets/Signatures/Signature_CB.png  used on input line 124.
 (pdftex.def)             Requested size: 204.85846pt x 36.56938pt.
-<./assets/Croquis_SR.pdf, id=587, 794.97pt x 614.295pt>
+<./assets/Croquis_SR.pdf, id=544, 794.97pt x 614.295pt>
 File: ./assets/Croquis_SR.pdf Graphic file (type pdf)
 <use ./assets/Croquis_SR.pdf>
 Package pdftex.def Info: ./assets/Croquis_SR.pdf  used on input line 129.
@@ -1034,12 +1027,12 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 129--130
 
 
 [6 <./assets/Croquis_CB.pdf, page is rotated 270 degrees> <./assets/Signatures/Signature_CB.png (PNG copy)>]
-<./assets/Signatures/Signature_SR.png, id=598, 446.66875pt x 131.49126pt>
+<./assets/Signatures/Signature_SR.png, id=555, 446.66875pt x 131.49126pt>
 File: ./assets/Signatures/Signature_SR.png Graphic file (type png)
 <use ./assets/Signatures/Signature_SR.png>
 Package pdftex.def Info: ./assets/Signatures/Signature_SR.png  used on input line 136.
 (pdftex.def)             Requested size: 204.85846pt x 60.30814pt.
-<./assets/Croquis_PC.pdf, id=599, 1909.88335pt x 2356.30411pt>
+<./assets/Croquis_PC.pdf, id=556, 1909.88335pt x 2356.30411pt>
 File: ./assets/Croquis_PC.pdf Graphic file (type pdf)
 <use ./assets/Croquis_PC.pdf>
 Package pdftex.def Info: ./assets/Croquis_PC.pdf  used on input line 141.
@@ -1052,7 +1045,7 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 141--142
 
 
 [7 <./assets/Croquis_SR.pdf> <./assets/Signatures/Signature_SR.png (PNG copy)>]
-<./assets/Signatures/Signature_PC.png, id=735, 225.84375pt x 117.43875pt>
+<./assets/Signatures/Signature_PC.png, id=691, 225.84375pt x 117.43875pt>
 File: ./assets/Signatures/Signature_PC.png Graphic file (type png)
 <use ./assets/Signatures/Signature_PC.png>
 Package pdftex.def Info: ./assets/Signatures/Signature_PC.png  used on input line 147.
@@ -1060,7 +1053,7 @@ Package pdftex.def Info: ./assets/Signatures/Signature_PC.png  used on input lin
 
 
 [8 <./assets/Croquis_PC.pdf>]
-<./assets/croquis_WH.jpg, id=745, 1577.895pt x 2054.67625pt>
+<./assets/croquis_WH.jpg, id=701, 1577.895pt x 2054.67625pt>
 File: ./assets/croquis_WH.jpg Graphic file (type jpg)
 <use ./assets/croquis_WH.jpg>
 Package pdftex.def Info: ./assets/croquis_WH.jpg  used on input line 152.
@@ -1073,7 +1066,7 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 152--153
 
 
 [9 <./assets/Signatures/Signature_PC.png (PNG copy)>]
-<./assets/Signatures/Signature_WH.png, id=752, 589.20125pt x 98.3675pt>
+<./assets/Signatures/Signature_WH.png, id=707, 589.20125pt x 98.3675pt>
 File: ./assets/Signatures/Signature_WH.png Graphic file (type png)
 <use ./assets/Signatures/Signature_WH.png>
 Package pdftex.def Info: ./assets/Signatures/Signature_WH.png  used on input line 158.
@@ -1081,7 +1074,7 @@ Package pdftex.def Info: ./assets/Signatures/Signature_WH.png  used on input lin
 
 
 [10 <./assets/croquis_WH.jpg>]
-<./assets/Grille.png, id=758, 1439.3775pt x 528.97626pt>
+<./assets/Grille.png, id=715, 1439.3775pt x 528.97626pt>
 File: ./assets/Grille.png Graphic file (type png)
 <use ./assets/Grille.png>
 Package pdftex.def Info: ./assets/Grille.png  used on input line 163.
@@ -1094,37 +1087,37 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 163--164
 
 
 [11 <./assets/Signatures/Signature_WH.png (PNG copy)> <./assets/Grille.png (PNG copy)>]
-<./assets/DCL/Moteur.png, id=765, 1584.92125pt x 1154.3125pt>
+<./assets/DCL/Moteur.png, id=722, 1584.92125pt x 1154.3125pt>
 File: ./assets/DCL/Moteur.png Graphic file (type png)
 <use ./assets/DCL/Moteur.png>
 Package pdftex.def Info: ./assets/DCL/Moteur.png  used on input line 204.
 (pdftex.def)             Requested size: 425.86942pt x 310.1538pt.
-<./assets/DCL/Worm.png, id=766, 1323.94624pt x 976.64874pt>
+<./assets/DCL/Worm.png, id=723, 1323.94624pt x 976.64874pt>
 File: ./assets/DCL/Worm.png Graphic file (type png)
 <use ./assets/DCL/Worm.png>
 Package pdftex.def Info: ./assets/DCL/Worm.png  used on input line 211.
 (pdftex.def)             Requested size: 425.86942pt x 314.14345pt.
-<./assets/DCL/Gear1.png, id=767, 988.69376pt x 664.4825pt>
+<./assets/DCL/Gear1.png, id=724, 988.69376pt x 664.4825pt>
 File: ./assets/DCL/Gear1.png Graphic file (type png)
 <use ./assets/DCL/Gear1.png>
 Package pdftex.def Info: ./assets/DCL/Gear1.png  used on input line 218.
 (pdftex.def)             Requested size: 425.86942pt x 286.21872pt.
-<./assets/DCL/Shaft.png, id=768, 531.9875pt x 1035.87pt>
+<./assets/DCL/Shaft.png, id=725, 531.9875pt x 1035.87pt>
 File: ./assets/DCL/Shaft.png Graphic file (type png)
 <use ./assets/DCL/Shaft.png>
 Package pdftex.def Info: ./assets/DCL/Shaft.png  used on input line 225.
 (pdftex.def)             Requested size: 319.40205pt x 621.93774pt.
-<./assets/DCL/Gear2.png, id=769, 1010.77625pt x 853.1875pt>
+<./assets/DCL/Gear2.png, id=726, 1010.77625pt x 853.1875pt>
 File: ./assets/DCL/Gear2.png Graphic file (type png)
 <use ./assets/DCL/Gear2.png>
 Package pdftex.def Info: ./assets/DCL/Gear2.png  used on input line 232.
 (pdftex.def)             Requested size: 425.86942pt x 359.46892pt.
-<./assets/DCL/ACME_nut.png, id=770, 1216.545pt x 995.72pt>
+<./assets/DCL/ACME_nut.png, id=727, 1216.545pt x 995.72pt>
 File: ./assets/DCL/ACME_nut.png Graphic file (type png)
 <use ./assets/DCL/ACME_nut.png>
 Package pdftex.def Info: ./assets/DCL/ACME_nut.png  used on input line 239.
 (pdftex.def)             Requested size: 425.86942pt x 348.568pt.
-<./assets/DCL/ACME_screw.png, id=771, 658.46pt x 1505.625pt>
+<./assets/DCL/ACME_screw.png, id=728, 658.46pt x 1505.625pt>
 File: ./assets/DCL/ACME_screw.png Graphic file (type png)
 <use ./assets/DCL/ACME_screw.png>
 Package pdftex.def Info: ./assets/DCL/ACME_screw.png  used on input line 246.
@@ -1142,41 +1135,22 @@ Package pdftex.def Info: ./assets/DCL/ACME_screw.png  used on input line 246.
 [16 <./assets/DCL/Gear2.png (PNG copy)>]
 
 [17 <./assets/DCL/ACME_nut.png (PNG copy)>]
-./Rapport_tp4.tex:256: Missing $ inserted.
-<inserted text> 
-                $
-l.256 	constante de gravité & g & 9,81 [ \[m\,s^
-                                                 {-2}} \] ]\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 ./Rapport_tp4.tex:256: Extra }, or forgotten $.
-l.256 ...nte de gravité & g & 9,81 [ \[m\,s^{-2}}
-                                                   \] ]\\
+l.256 ...stante de gravité & g & 9,81 [ $ms^{-2}}
+                                                  $ ]\\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Rapport_tp4.tex:256: Missing $ inserted.
-<inserted text> 
-                $
-l.256 ... de gravité & g & 9,81 [ \[m\,s^{-2}} \]
-                                                   ]\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 
 
 [18 <./assets/DCL/ACME_screw.png (PNG copy)>]
 
 [19{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
-./Rapport_tp4.tex:327: Undefined control sequence.
-l.327 		masse à soulever & $M_{charge}$ & N\A
+./Rapport_tp4.tex:328: Undefined control sequence.
+l.328 		masse à soulever & $M_{charge}$ & N\A
                                                [kg]\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1187,18 +1161,18 @@ and I'll forget about whatever was undefined.
 
 
 [20]
-./Rapport_tp4.tex:355: Missing $ inserted.
+./Rapport_tp4.tex:356: Missing $ inserted.
 <inserted text> 
                 $
-l.355 		nombre de filets de la vis sans fin & Z_
+l.356 		nombre de filets de la vis sans fin & Z_
                                                 w & 2 [-]\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Rapport_tp4.tex:355: Missing $ inserted.
+./Rapport_tp4.tex:356: Missing $ inserted.
 <inserted text> 
                 $
-l.355 ...mbre de filets de la vis sans fin & Z_w &
+l.356 ...mbre de filets de la vis sans fin & Z_w &
                                                    2 [-]\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1206,18 +1180,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Rapport_tp4.tex:356: Missing $ inserted.
+./Rapport_tp4.tex:357: Missing $ inserted.
 <inserted text> 
                 $
-l.356 		nombre de dents de la roue dentée & Z_
+l.357 		nombre de dents de la roue dentée & Z_
                                                b & 53 [-]\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Rapport_tp4.tex:356: Missing $ inserted.
+./Rapport_tp4.tex:357: Missing $ inserted.
 <inserted text> 
                 $
-l.356 		nombre de dents de la roue dentée & Z_b &
+l.357 		nombre de dents de la roue dentée & Z_b &
                                                    53 [-]\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1225,18 +1199,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Rapport_tp4.tex:357: Missing $ inserted.
+./Rapport_tp4.tex:358: Missing $ inserted.
 <inserted text> 
                 $
-l.357 		vitesse de la roue dentée & \omega
+l.358 		vitesse de la roue dentée & \omega
                                            _b & N/A [rpm]\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Rapport_tp4.tex:357: Missing $ inserted.
+./Rapport_tp4.tex:358: Missing $ inserted.
 <inserted text> 
                 $
-l.357 		vitesse de la roue dentée & \omega_b &
+l.358 		vitesse de la roue dentée & \omega_b &
                                                 N/A [rpm]\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1244,18 +1218,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Rapport_tp4.tex:358: Missing $ inserted.
+./Rapport_tp4.tex:359: Missing $ inserted.
 <inserted text> 
                 $
-l.358 		nombre de dents du pinion & Z_
+l.359 		nombre de dents du pinion & Z_
                                       a & 29 [-]\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Rapport_tp4.tex:358: Missing $ inserted.
+./Rapport_tp4.tex:359: Missing $ inserted.
 <inserted text> 
                 $
-l.358 		nombre de dents du pinion & Z_a &
+l.359 		nombre de dents du pinion & Z_a &
                                           29 [-]\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1263,18 +1237,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Rapport_tp4.tex:359: Missing $ inserted.
+./Rapport_tp4.tex:360: Missing $ inserted.
 <inserted text> 
                 $
-l.359 		vitesse dy pinion & \omega
+l.360 		vitesse dy pinion & \omega
                                   _a & N/A [-]\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Rapport_tp4.tex:359: Missing $ inserted.
+./Rapport_tp4.tex:360: Missing $ inserted.
 <inserted text> 
                 $
-l.359 		vitesse dy pinion & \omega_a &
+l.360 		vitesse dy pinion & \omega_a &
                                        N/A [-]\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1282,21 +1256,21 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Rapport_tp4.tex:362: Missing $ inserted.
+./Rapport_tp4.tex:363: Missing $ inserted.
 <inserted text> 
                 $
-l.362 		temps de levage & t_
+l.363 		temps de levage & t_
                             {montée} & N/A [s]\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 362.
+LaTeX Warning: Command \' invalid in math mode on input line 363.
 
-./Rapport_tp4.tex:362: Missing $ inserted.
+./Rapport_tp4.tex:363: Missing $ inserted.
 <inserted text> 
                 $
-l.362 		temps de levage & t_{montée} &
+l.363 		temps de levage & t_{montée} &
                                         N/A [s]\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1308,18 +1282,18 @@ my insertion and my current dilemma will both disappear.
 
 [21]
 
-LaTeX Warning: Command \' invalid in math mode on input line 370.
+LaTeX Warning: Command \' invalid in math mode on input line 371.
 
 
 
 [22]
 
-LaTeX Warning: Command \' invalid in math mode on input line 421.
+LaTeX Warning: Command \' invalid in math mode on input line 422.
 
-<./assets/DCL/dent_wg.png, id=843, 983.675pt x 450.68375pt>
+<./assets/DCL/dent_wg.png, id=800, 983.675pt x 450.68375pt>
 File: ./assets/DCL/dent_wg.png Graphic file (type png)
 <use ./assets/DCL/dent_wg.png>
-Package pdftex.def Info: ./assets/DCL/dent_wg.png  used on input line 432.
+Package pdftex.def Info: ./assets/DCL/dent_wg.png  used on input line 433.
 (pdftex.def)             Requested size: 455.24411pt x 208.5755pt.
 
 
@@ -1328,230 +1302,207 @@ Package pdftex.def Info: ./assets/DCL/dent_wg.png  used on input line 432.
 [24 <./assets/DCL/dent_wg.png (PNG copy)>]
 File: ./assets/Signatures/Signature_WH.png Graphic file (type png)
 <use ./assets/Signatures/Signature_WH.png>
-Package pdftex.def Info: ./assets/Signatures/Signature_WH.png  used on input line 476.
+Package pdftex.def Info: ./assets/Signatures/Signature_WH.png  used on input line 477.
 (pdftex.def)             Requested size: 204.85846pt x 34.20097pt.
 File: ./assets/Signatures/Signature_CB.png Graphic file (type png)
 <use ./assets/Signatures/Signature_CB.png>
-Package pdftex.def Info: ./assets/Signatures/Signature_CB.png  used on input line 479.
+Package pdftex.def Info: ./assets/Signatures/Signature_CB.png  used on input line 480.
 (pdftex.def)             Requested size: 204.85846pt x 36.56938pt.
 
 
 [25]
+./Rapport_tp4.tex:500: Undefined control sequence.
+<recently read> \e 
+                   
+l.500 ...cacité de l'engrenage vis sans fin & $\e
+                                                  _{w}$ & 0,18388 [-]\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-./Rapport_tp4.tex:504: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Rapport_tp4.tex:512: Missing $ inserted.
+<inserted text> 
+                $
+l.512 ...cisaillement à l'endroit critique & \tau
+                                                  _{c} & N/A [MPa]\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.504 \begin{enumerate}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+./Rapport_tp4.tex:512: Missing $ inserted.
+<inserted text> 
+                $
+l.512 ...lement à l'endroit critique & \tau_{c} &
+                                                   N/A [MPa]\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
+./Rapport_tp4.tex:513: Missing $ inserted.
+<inserted text> 
+                $
+l.513 		Contrainte de Von Mises & \sigma
+                                        _{VM} & N/A [MPa]\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-./Rapport_tp4.tex:506: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Rapport_tp4.tex:513: Missing $ inserted.
+<inserted text> 
+                $
+l.513 		Contrainte de Von Mises & \sigma_{VM} &
+                                                N/A [MPa]\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.506 \end{enumerate}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./assets/Signatures/Signature_SR.png Graphic file (type png)
-<use ./assets/Signatures/Signature_SR.png>
-Package pdftex.def Info: ./assets/Signatures/Signature_SR.png  used on input line 509.
-(pdftex.def)             Requested size: 204.85846pt x 60.30814pt.
-File: ./assets/Signatures/Signature_WH.png Graphic file (type png)
-<use ./assets/Signatures/Signature_WH.png>
-Package pdftex.def Info: ./assets/Signatures/Signature_WH.png  used on input line 512.
-(pdftex.def)             Requested size: 204.85846pt x 34.20097pt.
-File: ./assets/Signatures/Signature_CB.png Graphic file (type png)
-<use ./assets/Signatures/Signature_CB.png>
-Package pdftex.def Info: ./assets/Signatures/Signature_CB.png  used on input line 515.
-(pdftex.def)             Requested size: 204.85846pt x 36.56938pt.
 
 
 [26]
 
-./Rapport_tp4.tex:538: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.538 \begin{enumerate}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./Rapport_tp4.tex:540: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.540 \end{enumerate}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./assets/Signatures/Signature_SR.png Graphic file (type png)
-<use ./assets/Signatures/Signature_SR.png>
-Package pdftex.def Info: ./assets/Signatures/Signature_SR.png  used on input line 543.
-(pdftex.def)             Requested size: 204.85846pt x 60.30814pt.
-File: ./assets/Signatures/Signature_PC.png Graphic file (type png)
-<use ./assets/Signatures/Signature_PC.png>
-Package pdftex.def Info: ./assets/Signatures/Signature_PC.png  used on input line 546.
-(pdftex.def)             Requested size: 204.85846pt x 106.53252pt.
-
-
 [27]
-
-./Rapport_tp4.tex:569: LaTeX Error: Too deeply nested.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.569 \begin{enumerate}
-                       
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./Rapport_tp4.tex:571: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.571 \end{enumerate}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+./Rapport_tp4.tex:527: Extra }, or forgotten $.
+l.527 ...s(\lambda_w) - e_w*W_{wg}*sin(\lambda_w)}
+                                                   \]
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
 File: ./assets/Signatures/Signature_SR.png Graphic file (type png)
 <use ./assets/Signatures/Signature_SR.png>
-Package pdftex.def Info: ./assets/Signatures/Signature_SR.png  used on input line 574.
+Package pdftex.def Info: ./assets/Signatures/Signature_SR.png  used on input line 535.
 (pdftex.def)             Requested size: 204.85846pt x 60.30814pt.
-File: ./assets/DCL/dent_wg.png Graphic file (type png)
-<use ./assets/DCL/dent_wg.png>
-Package pdftex.def Info: ./assets/DCL/dent_wg.png  used on input line 581.
-(pdftex.def)             Requested size: 358.07277pt x 164.05463pt.
+File: ./assets/Signatures/Signature_WH.png Graphic file (type png)
+<use ./assets/Signatures/Signature_WH.png>
+Package pdftex.def Info: ./assets/Signatures/Signature_WH.png  used on input line 538.
+(pdftex.def)             Requested size: 204.85846pt x 34.20097pt.
+File: ./assets/Signatures/Signature_CB.png Graphic file (type png)
+<use ./assets/Signatures/Signature_CB.png>
+Package pdftex.def Info: ./assets/Signatures/Signature_CB.png  used on input line 541.
+(pdftex.def)             Requested size: 204.85846pt x 36.56938pt.
 
 
 [28]
-
-./Rapport_tp4.tex:593: LaTeX Error: Too deeply nested.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.593 \begin{enumerate}
-                       
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+./Rapport_tp4.tex:559: Undefined control sequence.
+l.559 ...aillement du matériau & $\tau_lim$ & N\A
+                                                   [Mpa]\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-./Rapport_tp4.tex:598: LaTeX Error: Too deeply nested.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.598 \begin{enumerate}
-                       
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[29]
+File: ./assets/Signatures/Signature_SR.png Graphic file (type png)
+<use ./assets/Signatures/Signature_SR.png>
+Package pdftex.def Info: ./assets/Signatures/Signature_SR.png  used on input line 590.
+(pdftex.def)             Requested size: 204.85846pt x 60.30814pt.
 File: ./assets/Signatures/Signature_PC.png Graphic file (type png)
 <use ./assets/Signatures/Signature_PC.png>
-Package pdftex.def Info: ./assets/Signatures/Signature_PC.png  used on input line 603.
+Package pdftex.def Info: ./assets/Signatures/Signature_PC.png  used on input line 593.
 (pdftex.def)             Requested size: 204.85846pt x 106.53252pt.
 
-LaTeX Warning: File `./assets/Specs.pdf' not found on input line 610.
+
+[30]
+
+[31]
+File: ./assets/Signatures/Signature_SR.png Graphic file (type png)
+<use ./assets/Signatures/Signature_SR.png>
+Package pdftex.def Info: ./assets/Signatures/Signature_SR.png  used on input line 647.
+(pdftex.def)             Requested size: 204.85846pt x 60.30814pt.
 
 
-./Rapport_tp4.tex:610: Package pdftex.def Error: File `./assets/Specs.pdf' not found: using draft setting.
+LaTeX Warning: File `./assets/Specs.pdf' not found on input line 653.
+
+
+./Rapport_tp4.tex:653: Package pdftex.def Error: File `./assets/Specs.pdf' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.610 ...[width=1.1\linewidth]{./assets/Specs.pdf}
+l.653 ...[width=1.1\linewidth]{./assets/Specs.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 610.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 653.
 (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 610--611
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 653--654
 [][] 
  []
 
 
 
-[29]
+[32]
 
-[30]
+[33]
 
-LaTeX Warning: Empty bibliography on input line 614.
+LaTeX Warning: Empty bibliography on input line 657.
 
 
-./Rapport_tp4.tex:619: LaTeX Error: \begin{enumerate} on input line 593 ended by \end{document}.
+./Rapport_tp4.tex:662: LaTeX Error: \begin{enumerate} on input line 453 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.619 \end{document}
+l.662 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-runsystem(latexminted cleantemp  --timestamp 20251217052555 48C23D74E4E58F0BF2B83D748395D021)...executed safely (allowed).
+runsystem(latexminted cleantemp  --timestamp 20251217130318 48C23D74E4E58F0BF2B83D748395D021)...executed safely (allowed).
 
 (./Rapport_tp4.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `Rapport_tp4.out' has not changed.
-(rerunfilecheck)             Checksum: CC13C32B23EF2875028FDDC5A26502E5;13293.
+
+
+Package rerunfilecheck Warning: File `Rapport_tp4.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Rapport_tp4.out':
+(rerunfilecheck)             Before: D359FAFD5B5FC77197D6A855D5A7D47E;11479
+(rerunfilecheck)             After:  472E03788F4760B32245018922D4F847;11325.
 Package logreq Info: Writing requests to 'Rapport_tp4.run.xml'.
 \openout1 = `Rapport_tp4.run.xml'.
 
  )
-(\end occurred inside a group at level 5)
+(\end occurred inside a group at level 1)
 
-### semi simple group (level 5) entered at line 593 (\begingroup)
-### semi simple group (level 4) entered at line 564 (\begingroup)
-### semi simple group (level 3) entered at line 533 (\begingroup)
-### semi simple group (level 2) entered at line 499 (\begingroup)
-### semi simple group (level 1) entered at line 452 (\begingroup)
+### semi simple group (level 1) entered at line 453 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 26480 strings out of 475142
- 509519 string characters out of 5765945
- 1559657 words of memory out of 5000000
- 49013 multiletter control sequences out of 15000+600000
+ 26479 strings out of 475142
+ 509304 string characters out of 5765945
+ 1558654 words of memory out of 5000000
+ 49005 multiletter control sequences out of 15000+600000
  610373 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,11n,81p,700b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,81p,1324b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsubsection.4.3.7} has been referenced but does not exist, replaced by a fixed one
+
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
-Output written on Rapport_tp4.pdf (34 pages, 18856630 bytes).
+Output written on Rapport_tp4.pdf (36 pages, 18867869 bytes).
 PDF statistics:
- 983 PDF objects out of 1000 (max. 8388607)
- 722 compressed objects within 8 object streams
- 148 named destinations out of 1000 (max. 500000)
- 636 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 965 PDF objects out of 1000 (max. 8388607)
+ 702 compressed objects within 8 object streams
+ 155 named destinations out of 1000 (max. 500000)
+ 572 words of extra memory for PDF output out of 10000 (max. 10000000)
 

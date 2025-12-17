@@ -253,11 +253,11 @@ Enfin, nous avons considéré que la géométrie conique conférait une robustes
 		Paramètre & symbole & valeur de base\\
 		\hline
 		masse à soulever & $M_{charge}$ & 295,5 [kg]\\
-	constante de gravité & g & 9,81 [ \[m\,s^{-2}} \] ]\\
+	constante de gravité & g & 9,81 [ $ms^{-2}}$ ]\\
 	pas de la vis ACME & P & 0,00254 [m]\\
 	Diamètre primitif vis ACME & $\diameter_s$ & 0,011285 [m]\\
-	lead angle & $\lambda$ & N/A [$\circ$]\\
-	angle d'hélice & $\psi$ & 4,098 [$\circ$]\\
+	lead angle vis ACME& $\lambda_v$ & N/A [$\circ$]\\
+	angle d'hélice vis ACME& $\psi_v$ & 4,098 [$\circ$]\\
 	coeff. friction vis-écrou & $\mu$ & 0,5 [-]\\
 	coeff. friction nylon-nylon & f & 0,25 [-]\\
 	efficacité & $\varepsilon$ & N/A [-]\\
@@ -269,6 +269,7 @@ Enfin, nous avons considéré que la géométrie conique conférait une robustes
 	nombre de dents de la roue dentée & $Z_b$ & 53 [-]\\
 	efficacité engrenage hélicoïdal & $\eta$ & 0,98 [-]\\
 	angle de pression & $\phi_n$ & 20 [$\circ$]\\
+	angle d'hélice vis sans fin& $\psi_w$ & 3,5 [$\circ$]\\	
 	efficacité engrenage vis sans fin & $e_w$ & N/A [-]\\
 	nombre de filets vis sans fin & $Z_w$ & 2 [-]\\
 	Couple du moteur & $C_{mot}$ & N/A [Nm]\\
@@ -483,6 +484,7 @@ La suite du calcul suit la même procédure qu'à 4.1.6
 
 \subsection{Calcul \#3: flexion de l'arbre de la roue dentée (pièce \#17)}
 \subsubsection{explication des contraintes physiques}
+L'arbre permet de maintenir en place la roue dentée, il reprend donc les forces axiales, radiales et tangentielles provenant du pignon et de la vis sans fin, et ce, par l'entremise de deux roulements. Si les modules des forces homologues reprisent sont égaux, leur orientation ne l'est pas, ce qui influence la résultante sur l'arbre. Les forces tangentielles sont à perpendiculaires l'une par rapport à l'autre, tout comme les forces radiales. Les deux tuples de forces sont également perpendiculaires entre eux.La combinaison de toutes ces forces donne une résultante dans le plan XY, dont l'orientation sera considérer comme l'axe Y afin de simplifier le calcul. La moitié de cette résultante est appliquée à chaque roulement, causant ainsi la flexion de l'arbre. Quant aux forces axiales, celles-ci sont de sens opposé, alors la résultante dans l'axe Z est nulle à l'arbre. Cependant, comme ces forces ne sont pas appliqués directement sur l'arbre, elle créent un moment de flexion sur l'arbre dans le plan XZ. L'arbre est encastré à ses deux extrémités, la situation est donc hyperstatique. Toutefois, afin de simplifier le calcul, on néglige la rigidité de l'arbre et on prend les forces de réactions aux bouts de l'arbre commes provenants d'appuis simples. 
 \subsubsection{DCL}
  Voir section 4.1.1 d) (p.15)
 \subsubsection{données techniques du calculs}
@@ -491,19 +493,43 @@ La suite du calcul suit la même procédure qu'à 4.1.6
 		\hline
 		Paramètre & symbole & valeur de base\\
 		\hline
+		Chargement tangeant sur la roue dentée & $W_{twg}$ & 95,83 [N]\\
+		Angle de pression & $\phi_n$ & 20 [$^o$]\\
+		Angle d'hélice de la vis sans fin & $\psi_w$ & 3,5 [$^o$]\\ 
+		Lead angle de la vis sans fin & $\lambda_w$ & 3,5 [$^o$]\\
+		efficacité de l'engrenage vis sans fin & $\e_{w}$ & 0,18388 [-]\\
+		Chargement total sur la roue dentée & $W_{wg}$ & N/A [N]\\
+		Chargement axial sur la roue dentée & $W_{awg}$ & N/A [N]\\
+		Chargement radial sur la roue dentée & $W_{rwg}$ & N/A [N]\\
+		Résultante sur l'axe y à l'arbre & $F_{bearing}$ & N/A [N]\\
+		Diamètre primitif de la roue dentée & $\diameter_{wg}$ & 0,07 [m]\\
+		Moment résultant à l'arbre dans le plan XZ & $M_{bearing}$ & N/A [Nm]\\
+		Moment de flexion critique & $M_c$ & N/A [Nm]\\
+		Effort tranchant critique &  $V_c$ & N/A [N]\\
+		Diamètre de l'arbre à l'endroit critique & $\diameter_{c}$ & N/A [m]\\
+		Moment d'inertie de la section de l'arbre & I & N/A [$m^4$]\\
+		Contrainte de flexion à l'endroit critique & $\sigma_{c}$ & N/A [MPa]\\
+		Contrainte de cisaillement à l'endroit critique & \tau_{c} & N/A [MPa]\\
+		Contrainte de Von Mises & \sigma_{VM} & N/A [MPa]\\
+		Facteur de sécurité & F.S & N/A [-]\\
 		\hline
 	\end{tabular}
 \end{center}
 \subsubsection{question technique et description du calcul}
+Question: L'arbre se brise-t-il en fléchissant sous le chargement régulier du système, ou sinon, à quel chargement se romp-t-il?\\ 
+Description du calcul: Calculer les forces et moments appliqués sur l'arbre en opération r;eguklière, puis construire les diagrames d'effort tranchant et de moment de flexion pour définir ses points critiques. Calculer la contrainte de cisaillement et de flexion au point critique, afin de pouvoir obtenir la contrainte de Von Mises. Comparer à la résistance du matériau pour définir le facteur de sécurité. Finalement, réitérer le calcul en posant la limite du matériau comme contrainte appliqué et vérifier la charge causant la défaillance de la pièce.
+
 \subsubsection{cas en opération normale}
 \begin{enumerate}
   \renewcommand{\labelenumi}{\alph{enumi})}
+  \item chargement à 1 point sur la roue dentée
+	  \[ W_{wg} = \frac{W_{wgt}}{cos(\phi_{n})sin(\lambda_w) +e_wcos(\lambda_w)} \]
+          \[ W_{wga} = W_{wg}*cos(\phi_{n})*cos(\lambda_w) - e_w*W_{wg}*sin(\lambda_w)} \]
+	  \[ W_{wgr} = W_{wg}*sin(\phi_{n}) \]
 
-
-\subsubsection{cas en surcharge}
-\begin{enumerate}
-  \renewcommand{\labelenumi}{\alph{enumi})}
 \end{enumerate}
+Les premières estimations de ce calcul révèlaient un bris probable de l'arbre sous une charge de 125 lbs. Cependant, comme ces estimations étaient érronées, il fut entrepris de les rectifier à l'aide de la démarche plus rigoureuse présentée ci-dessus, orle test effectué le mercredi 17 décembre a révélé que l'arbre n'était pas le point faible du système, et que donc les efforts et le temps mis dans ce calcul sont mal placés. 
+
 \subsubsection{signatures}
      \begin{figure}[H] 
 	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_SR.png}
@@ -517,6 +543,7 @@ La suite du calcul suit la même procédure qu'à 4.1.6
 
 \subsection{Calcul \#4: torsion de la vis sans vis sans fin (pièce \#2)}
 \subsubsection{explication des contraintes physiques}
+La vis sans fin est emportée en rotation par le moteur, effet sous lequel elle est mise sous torsion. L'accouplement avec le moteur est la partie la plus mince de la vis, elle risque donc de se briser en torsion.
 \subsubsection{DCL}
 Voir section 4.1.1 b) (p.14)
 \subsubsection{données techniques du calculs}
@@ -525,19 +552,39 @@ Voir section 4.1.1 b) (p.14)
 		\hline
 		Paramètre & symbole & valeur de base\\
 		\hline
+		Rayon extérieur du de l'accouplement & $R_ext$ & 0,01 [m]\\
+		Rayon intérieur de l'accouplement & $R_int$ & 0,00408 [m]\\
+		Moment polaire de la section de l'accouplement & J & N/A [$m^4$]\\
+		Limite en tension du matériau & $Se$ & 42 [MPa]\\
+		Limite de cisaillement du matériau & $\tau_lim$ & N\A [Mpa]\\
+		Couple moteur en opération normal & $C_{mot}$ & 0,689 [Nm]\\
+		Couple moteur en surcharge & $C_{mots}$ & 2,2 [Nm]\\
+		contrainte de cisaillement appliquée & $\tau$ & N/A [MPa]\\
+		Facteur de sécurité & F.S. & N/A [-]\\
 		\hline
 	\end{tabular}
 \end{center}
 \subsubsection{question technique et description du calcul}
+Question: Est ce que le couple nominal du moteur est suffisant pour cisailler la vis sans fin à cause de la torsion appliquée à l'accouplement?
+Calcul: Calculer la contrainte de cisaillement au niveau de l'accouplement moteur-vis sans fin, en opération régulière et en surcharge, et vérifier les facteurs de sécurité.
 \subsubsection{cas en opération normale}
 \begin{enumerate}
   \renewcommand{\labelenumi}{\alph{enumi})}
-
-
+  \item moment polaire de la section de l'accouplement
+	  \[ J = \frac{\pi}{2}*(R_{ext}^4 - R_{int}^4) = 1,54*10^-8 \]
+ \item limite du matériau en torsion selon le critère de Tresca
+	 \[ \tau_{lim} = \frac{1}{2}*Se = 26 \]
+\item contrainte de cisaillement à l'accouplement
+	\[ \tau = \frac{C_{mot}*R_ext}{J} = 0,447 \]
+\item facteur de sécurité
+	\[ F.S = \frac{\tau_lim}{\tau} = 58,16 \]
 \subsubsection{cas en surcharge}
-\begin{enumerate}
-  \renewcommand{\labelenumi}{\alph{enumi})}
+\item contrainte de cisaillement à l'accouplement
+	\[ \tau = \frac{C_{mots}*R_ext}{J} = 1,428 \]
+\item facteur de sécurité
+	\[ F.S. = \frac{\tau_lim}{\tau} = 18,21 \]
 \end{enumerate}
+Le facteur de sécurité étant loin de 1,25, et ce, même en surcharge, on peut considérer que la pièce ne se cassera pas à l'accouplement sous l'effet de la torsion.
 \subsubsection{signatures}
      \begin{figure}[H] 
 	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_SR.png}
@@ -548,6 +595,7 @@ Voir section 4.1.1 b) (p.14)
 \subsection{Calcul \#5: flambage de la vis ACME (pièce \#7)}
 
 \subsubsection{explication des contraintes physiques}
+Lorsque la charge est appliqué au système, la vis ACME reprend son entierté de manière axiale, créant ainsi un risque de flambage.
 \subsubsection{DCL}
   Voir section 4.1.1 g) (p.18)
 \subsubsection{données techniques du calculs}
@@ -556,53 +604,48 @@ Voir section 4.1.1 b) (p.14)
 		\hline
 		Paramètre & symbole & valeur de base\\
 		\hline
+		longueur de la vis & L & 0,125 [m]\\
+		diamètre primitif de la vis & $\diameter_{s}$ & 0,011285 [m]\\
+		module d'élasticité de l'acier & E & 200 [GPA]\\
+		accélération gravitationelle & g & 9,81 [$m/s^2$]\\
+		masse soulevée en surcharge & $M_{surcharge}$ & 56,4 [kg]\\
+		masse soulevée en opération normale & $M_{charge}$ & 34 [kg]\\
+		moment d'inertie de la section de la vis & $ I_{s} $ & N/A [$m^4$]\\
+		force appliquée par le chargement sur la vis & $F_{charge}$ & N/A [N]\\
+		force en surcharge & $F_{surcharge}$ & 106,26 [kg]\\
+		charge critique de flambage & $P_{crit}$ & N/A [N]\\
+		facteur de sécurité & F.S & N/A [-]\\
 		\hline
 	\end{tabular}
 \end{center}
 \subsubsection{question technique et description du calcul}
+Question: La vis ACME flambera-t-elle sous le chargement régulier ou en surcharge\\
+Calcul: Calculer le chargement limite causant le flambage de la vis, en opération normale et en surcharge, puis calculer les facteurs de sécurité.
 \subsubsection{cas en opération normale}
 \begin{enumerate}
   \renewcommand{\labelenumi}{\alph{enumi})}
-
-
+  \item Moment d'inertie de la section de la vis ACME
+	  \[I = \frac{\pi*\diameter_{s}^4}{64} = 1,91196*10^-10 \]
+  \item charge critique en flambage pour une poutre libre a une extrémité et fixe à l'autre
+	  \[ P_{crit} = \frac{pi^2*E*I}{4L^2} = 6038 \]
+ \item force appliqueée par le chargement normal sur la vis
+	 \[ F_charge = g*M_{charge} = 335,54 \]
+\item facteur de sécurité en surcharge
+	\[ F.S. = \frac{P_{crit}}{F_{charge}} = 18,1 [-] \]
+\end{enumerate}
 \subsubsection{cas en surcharge}
 \begin{enumerate}
   \renewcommand{\labelenumi}{\alph{enumi})}
+ \item force appliquée sur la vis en surcharge
+	 \[ F_charge = g*M_{charge} = 1042,8 \]
+\item facteur de sécurité en opération normale
+	\[ F.S. = \frac{P_{crit}}{F_{charge}} = 5,79 [-] \]
 \end{enumerate}
+Le facteur de sécurité étant loin de 1 même en surcharge, la vis ACME ne devrait pas flamber lors de l'opération.
 \subsubsection{signatures}
      \begin{figure}[H] 
 	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_SR.png}
     \end{figure}
-
-\subsection{Calcul \#6: force nécessaire pour maintenir la vis de pression (pièce \#11)}
-
-\subsubsection{explication des contraintes physiques}
-\subsubsection{DCL}
-  \includegraphics[width=1\linewidth]{./assets/DCL/dent_wg.png}
-\subsubsection{données techniques du calculs}
-\begin{center}
-	\begin{tabular}{|c c c|}
-		\hline
-		Paramètre & symbole & valeur de base\\
-		\hline
-		\hline
-	\end{tabular}
-\end{center}
-\subsubsection{question technique et description du calcul}
-\subsubsection{cas en opération normale}
-\begin{enumerate}
-  \renewcommand{\labelenumi}{\alph{enumi})}
-
-
-\subsubsection{cas en surcharge}
-\begin{enumerate}
-  \renewcommand{\labelenumi}{\alph{enumi})}
-\end{enumerate}
-\subsubsection{signatures}
-     \begin{figure}[H] 
-	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_PC.png}
-    \end{figure}
-
 
 \section{Conclusion}
     \subsection{Fiche de spécifications techniques}
