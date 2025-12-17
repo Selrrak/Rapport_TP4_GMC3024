@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  16 DEC 2025 11:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  16 DEC 2025 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -481,6 +481,11 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \extratabsurround=\skip60
 \backup@length=\skip61
 \ar@cellbox=\box69
+) (/usr/share/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
 ) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
  (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
@@ -555,7 +560,8 @@ File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'apa.dbx' found.
- (/usr/share/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+
+(/usr/share/texmf-dist/tex/latex/biblatex-apa/apa.dbx
 File: apa.dbx 2023/03/20 v9.17 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
@@ -654,8 +660,7 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip83
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
+ (/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
@@ -737,7 +742,7 @@ Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 35.
+Package hyperref Info: Option `colorlinks' set `true' on input line 36.
  (/usr/share/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
@@ -745,30 +750,30 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 53.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 54.
  (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./Rapport_tp4.aux)
 \openout1 = `Rapport_tp4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -804,7 +809,7 @@ LaTeX Font Info:    ... okay on input line 53.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 53.
+Package hyperref Info: Link coloring ON on input line 54.
 (./Rapport_tp4.out) (./Rapport_tp4.out)
 \@outlinefile=\write5
 \openout5 = `Rapport_tp4.out'.
@@ -866,34 +871,38 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Rapport_tp4.bbl' not found.
 
 No file Rapport_tp4.bbl.
-Package biblatex Info: Reference section=0 on input line 53.
-Package biblatex Info: Reference segment=0 on input line 53.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 58.
+Package biblatex Info: Reference section=0 on input line 54.
+Package biblatex Info: Reference segment=0 on input line 54.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 59.
 (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 58.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 59.
  (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 58.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 59.
  (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 58.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 59.
  (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 58.
+(Font)              <14.4> on input line 59.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 58.
+(Font)              <10> on input line 59.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 58.
-<./assets/Université_Laval_logo_et_texte.svg.png, id=104, 2569.6pt x 1116.17pt>
+(Font)              <7> on input line 59.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 59.
+ (/usr/share/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+<./assets/Université_Laval_logo_et_texte.svg.png, id=124, 2569.6pt x 1116.17pt>
 File: ./assets/Université_Laval_logo_et_texte.svg.png Graphic file (type png)
 <use ./assets/Université_Laval_logo_et_texte.svg.png>
-Package pdftex.def Info: ./assets/Université_Laval_logo_et_texte.svg.png  used on input line 66.
+Package pdftex.def Info: ./assets/Université_Laval_logo_et_texte.svg.png  used on input line 67.
 (pdftex.def)             Requested size: 364.19667pt x 158.18727pt.
 
 
@@ -916,149 +925,156 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82 \newpage
+l.83 \newpage
               [2]
-<./assets/Explose.png, id=145, 1386.17876pt x 1065.9825pt>
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.83 \newpage
+              [3]
+<./assets/Explose.png, id=174, 1386.17876pt x 1065.9825pt>
 File: ./assets/Explose.png Graphic file (type png)
 <use ./assets/Explose.png>
-Package pdftex.def Info: ./assets/Explose.png  used on input line 88.
+Package pdftex.def Info: ./assets/Explose.png  used on input line 89.
 (pdftex.def)             Requested size: 500.77129pt x 385.08719pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 88--89
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 89--90
 [][] 
  []
 
-<./assets/XY_pref1.pdf, id=146, 794.97pt x 614.295pt>
+<./assets/XY_pref1.pdf, id=175, 794.97pt x 614.295pt>
 File: ./assets/XY_pref1.pdf Graphic file (type pdf)
 <use ./assets/XY_pref1.pdf>
-Package pdftex.def Info: ./assets/XY_pref1.pdf  used on input line 96.
+Package pdftex.def Info: ./assets/XY_pref1.pdf  used on input line 97.
 (pdftex.def)             Requested size: 500.77129pt x 386.9704pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 96--97
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 97--98
 [][] 
  []
 
 
 
 [1 <./assets/Explose.png (PNG copy)>]
-<./assets/XY_pref2.pdf, id=152, 794.97pt x 614.295pt>
+<./assets/XY_pref2.pdf, id=181, 794.97pt x 614.295pt>
 File: ./assets/XY_pref2.pdf Graphic file (type pdf)
 <use ./assets/XY_pref2.pdf>
-Package pdftex.def Info: ./assets/XY_pref2.pdf  used on input line 100.
+Package pdftex.def Info: ./assets/XY_pref2.pdf  used on input line 101.
 (pdftex.def)             Requested size: 500.77129pt x 386.9704pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 100--101
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 101--102
 [][] 
  []
 
 
 
 [2 <./assets/XY_pref1.pdf>]
-<./assets/Z_pref1.pdf, id=209, 794.97pt x 614.295pt>
+<./assets/Z_pref1.pdf, id=237, 794.97pt x 614.295pt>
 File: ./assets/Z_pref1.pdf Graphic file (type pdf)
 <use ./assets/Z_pref1.pdf>
-Package pdftex.def Info: ./assets/Z_pref1.pdf  used on input line 106.
+Package pdftex.def Info: ./assets/Z_pref1.pdf  used on input line 107.
 (pdftex.def)             Requested size: 500.77129pt x 386.9704pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 106--107
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 107--108
 [][] 
  []
 
 
 
 [3 <./assets/XY_pref2.pdf>]
-<./assets/Z_pref2.pdf, id=265, 794.97pt x 614.295pt>
+<./assets/Z_pref2.pdf, id=293, 794.97pt x 614.295pt>
 File: ./assets/Z_pref2.pdf Graphic file (type pdf)
 <use ./assets/Z_pref2.pdf>
-Package pdftex.def Info: ./assets/Z_pref2.pdf  used on input line 110.
+Package pdftex.def Info: ./assets/Z_pref2.pdf  used on input line 111.
 (pdftex.def)             Requested size: 500.77129pt x 386.9704pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 110--111
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 111--112
 [][] 
  []
 
 
 
 [4 <./assets/Z_pref1.pdf>]
-<./assets/Croquis_CB.pdf, id=322, 2769.17863pt x 2141.70035pt>
+<./assets/Croquis_CB.pdf, id=351, 2769.17863pt x 2141.70035pt>
 File: ./assets/Croquis_CB.pdf Graphic file (type pdf)
 <use ./assets/Croquis_CB.pdf>
-Package pdftex.def Info: ./assets/Croquis_CB.pdf  used on input line 117.
+Package pdftex.def Info: ./assets/Croquis_CB.pdf  used on input line 118.
 (pdftex.def)             Requested size: 500.77129pt x 387.28682pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 117--118
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 118--119
 [][] 
  []
 
 
 
 [5 <./assets/Z_pref2.pdf>]
-<./assets/Signatures/Signature_CB.png, id=379, 607.26875pt x 108.405pt>
+<./assets/Signatures/Signature_CB.png, id=407, 607.26875pt x 108.405pt>
 File: ./assets/Signatures/Signature_CB.png Graphic file (type png)
 <use ./assets/Signatures/Signature_CB.png>
-Package pdftex.def Info: ./assets/Signatures/Signature_CB.png  used on input line 123.
+Package pdftex.def Info: ./assets/Signatures/Signature_CB.png  used on input line 124.
 (pdftex.def)             Requested size: 204.85846pt x 36.56938pt.
-<./assets/Croquis_SR.pdf, id=380, 794.97pt x 614.295pt>
+<./assets/Croquis_SR.pdf, id=408, 794.97pt x 614.295pt>
 File: ./assets/Croquis_SR.pdf Graphic file (type pdf)
 <use ./assets/Croquis_SR.pdf>
-Package pdftex.def Info: ./assets/Croquis_SR.pdf  used on input line 128.
+Package pdftex.def Info: ./assets/Croquis_SR.pdf  used on input line 129.
 (pdftex.def)             Requested size: 500.77129pt x 386.9704pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 128--129
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 129--130
 [][] 
  []
 
 
 
 [6 <./assets/Croquis_CB.pdf, page is rotated 270 degrees> <./assets/Signatures/Signature_CB.png (PNG copy)>]
-<./assets/Signatures/Signature_SR.png, id=391, 446.66875pt x 131.49126pt>
+<./assets/Signatures/Signature_SR.png, id=419, 446.66875pt x 131.49126pt>
 File: ./assets/Signatures/Signature_SR.png Graphic file (type png)
 <use ./assets/Signatures/Signature_SR.png>
-Package pdftex.def Info: ./assets/Signatures/Signature_SR.png  used on input line 135.
+Package pdftex.def Info: ./assets/Signatures/Signature_SR.png  used on input line 136.
 (pdftex.def)             Requested size: 204.85846pt x 60.30814pt.
-<./assets/Croquis_PC.pdf, id=392, 1909.88335pt x 2356.30411pt>
+<./assets/Croquis_PC.pdf, id=420, 1909.88335pt x 2356.30411pt>
 File: ./assets/Croquis_PC.pdf Graphic file (type pdf)
 <use ./assets/Croquis_PC.pdf>
-Package pdftex.def Info: ./assets/Croquis_PC.pdf  used on input line 140.
+Package pdftex.def Info: ./assets/Croquis_PC.pdf  used on input line 141.
 (pdftex.def)             Requested size: 500.77129pt x 617.80205pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 140--141
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 141--142
 [][] 
  []
 
 
 
 [7 <./assets/Croquis_SR.pdf> <./assets/Signatures/Signature_SR.png (PNG copy)>]
-<./assets/Signatures/Signature_PC.png, id=527, 225.84375pt x 117.43875pt>
+<./assets/Signatures/Signature_PC.png, id=556, 225.84375pt x 117.43875pt>
 File: ./assets/Signatures/Signature_PC.png Graphic file (type png)
 <use ./assets/Signatures/Signature_PC.png>
-Package pdftex.def Info: ./assets/Signatures/Signature_PC.png  used on input line 146.
-(pdftex.def)             Requested size: 204.85846pt x 106.53252pt.
+Package pdftex.def Info: ./assets/Signatures/Signature_PC.png  used on input line 147.
+(pdftex.def)             Requested size: 136.57462pt x 71.02287pt.
 
 
 [8 <./assets/Croquis_PC.pdf>]
-<./assets/Croquis_WH.pdf, id=537, 794.97pt x 614.295pt>
+<./assets/Croquis_WH.pdf, id=566, 794.97pt x 614.295pt>
 File: ./assets/Croquis_WH.pdf Graphic file (type pdf)
 <use ./assets/Croquis_WH.pdf>
-Package pdftex.def Info: ./assets/Croquis_WH.pdf  used on input line 151.
+Package pdftex.def Info: ./assets/Croquis_WH.pdf  used on input line 152.
 (pdftex.def)             Requested size: 500.77129pt x 386.9704pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 151--152
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 152--153
 [][] 
  []
 
-<./assets/Signatures/Signature_WH.png, id=538, 589.20125pt x 98.3675pt>
+<./assets/Signatures/Signature_WH.png, id=567, 589.20125pt x 98.3675pt>
 File: ./assets/Signatures/Signature_WH.png Graphic file (type png)
 <use ./assets/Signatures/Signature_WH.png>
-Package pdftex.def Info: ./assets/Signatures/Signature_WH.png  used on input line 157.
+Package pdftex.def Info: ./assets/Signatures/Signature_WH.png  used on input line 158.
 (pdftex.def)             Requested size: 204.85846pt x 34.20097pt.
-<./assets/Grille.png, id=539, 1439.3775pt x 528.97626pt>
+<./assets/Grille.png, id=568, 1439.3775pt x 528.97626pt>
 File: ./assets/Grille.png Graphic file (type png)
 <use ./assets/Grille.png>
-Package pdftex.def Info: ./assets/Grille.png  used on input line 162.
+Package pdftex.def Info: ./assets/Grille.png  used on input line 163.
 (pdftex.def)             Requested size: 500.77129pt x 184.03867pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 162--163
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 163--164
 [][] 
  []
 
@@ -1066,42 +1082,139 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 162--163
 
 [9 <./assets/Signatures/Signature_PC.png (PNG copy)> <./assets/Croquis_WH.pdf> <./assets/Signatures/Signature_WH.png (PNG copy)>]
 
-LaTeX Warning: File `./assets/Specs.pdf' not found on input line 179.
+[10 <./assets/Grille.png (PNG copy)>]
+<./assets/DCL/Moteur.png, id=584, 1584.92125pt x 1154.3125pt>
+File: ./assets/DCL/Moteur.png Graphic file (type png)
+<use ./assets/DCL/Moteur.png>
+Package pdftex.def Info: ./assets/DCL/Moteur.png  used on input line 204.
+(pdftex.def)             Requested size: 425.86942pt x 310.1538pt.
+<./assets/DCL/Worm.png, id=585, 1323.94624pt x 976.64874pt>
+File: ./assets/DCL/Worm.png Graphic file (type png)
+<use ./assets/DCL/Worm.png>
+Package pdftex.def Info: ./assets/DCL/Worm.png  used on input line 211.
+(pdftex.def)             Requested size: 425.86942pt x 314.14345pt.
+<./assets/DCL/Gear1.png, id=586, 988.69376pt x 664.4825pt>
+File: ./assets/DCL/Gear1.png Graphic file (type png)
+<use ./assets/DCL/Gear1.png>
+Package pdftex.def Info: ./assets/DCL/Gear1.png  used on input line 218.
+(pdftex.def)             Requested size: 425.86942pt x 286.21872pt.
+<./assets/DCL/Shaft.png, id=587, 531.9875pt x 1035.87pt>
+File: ./assets/DCL/Shaft.png Graphic file (type png)
+<use ./assets/DCL/Shaft.png>
+Package pdftex.def Info: ./assets/DCL/Shaft.png  used on input line 225.
+(pdftex.def)             Requested size: 319.40205pt x 621.93774pt.
+<./assets/DCL/Gear2.png, id=588, 1010.77625pt x 853.1875pt>
+File: ./assets/DCL/Gear2.png Graphic file (type png)
+<use ./assets/DCL/Gear2.png>
+Package pdftex.def Info: ./assets/DCL/Gear2.png  used on input line 232.
+(pdftex.def)             Requested size: 425.86942pt x 359.46892pt.
+<./assets/DCL/ACME_nut.png, id=589, 1216.545pt x 995.72pt>
+File: ./assets/DCL/ACME_nut.png Graphic file (type png)
+<use ./assets/DCL/ACME_nut.png>
+Package pdftex.def Info: ./assets/DCL/ACME_nut.png  used on input line 239.
+(pdftex.def)             Requested size: 425.86942pt x 348.568pt.
+<./assets/DCL/ACME_screw.png, id=590, 658.46pt x 1505.625pt>
+File: ./assets/DCL/ACME_screw.png Graphic file (type png)
+<use ./assets/DCL/ACME_screw.png>
+Package pdftex.def Info: ./assets/DCL/ACME_screw.png  used on input line 246.
+(pdftex.def)             Requested size: 298.10728pt x 681.66031pt.
 
 
-./Rapport_tp4.tex:179: Package pdftex.def Error: File `./assets/Specs.pdf' not found: using draft setting.
+[11]
+
+[12 <./assets/DCL/Moteur.png (PNG copy)>]
+
+[13 <./assets/DCL/Worm.png (PNG copy)> <./assets/DCL/Gear1.png (PNG copy)>]
+
+[14 <./assets/DCL/Shaft.png (PNG copy)>]
+
+[15 <./assets/DCL/Gear2.png (PNG copy)>]
+
+[16 <./assets/DCL/ACME_nut.png (PNG copy)>]
+./Rapport_tp4.tex:256: Missing $ inserted.
+<inserted text> 
+                $
+l.256 	constante de gravité & g & 9,81 [ \[m\,s^
+                                                 {-2}} \] ]\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Rapport_tp4.tex:256: Extra }, or forgotten $.
+l.256 ...nte de gravité & g & 9,81 [ \[m\,s^{-2}}
+                                                   \] ]\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Rapport_tp4.tex:256: Missing $ inserted.
+<inserted text> 
+                $
+l.256 ... de gravité & g & 9,81 [ \[m\,s^{-2}} \]
+                                                   ]\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Rapport_tp4.tex:266: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.266 	Perte de torque en friction au pinion &
+                                               $T_f$ & N/A [Nm]\\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (61.88702pt too wide) in paragraph at lines 251--278
+ [] 
+ []
+
+
+
+[17 <./assets/DCL/ACME_screw.png (PNG copy)>]
+
+[18{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+
+LaTeX Warning: File `./assets/Specs.pdf' not found on input line 309.
+
+
+./Rapport_tp4.tex:309: Package pdftex.def Error: File `./assets/Specs.pdf' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 ...[width=1.1\linewidth]{./assets/Specs.pdf}
+l.309 ...[width=1.1\linewidth]{./assets/Specs.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 179.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 309.
 (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 179--180
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 309--310
 [][] 
  []
 
 
 
-[10 <./assets/Grille.png (PNG copy)>]
+[19]
 
-[11]
-Overfull \vbox (185.69238pt too high) has occurred while \output is active []
+[20]
+Overfull \vbox (205.80904pt too high) has occurred while \output is active []
 
 
 
-[12]
+[21]
 
-LaTeX Warning: Empty bibliography on input line 183.
+LaTeX Warning: Empty bibliography on input line 313.
 
-runsystem(latexminted cleantemp  --timestamp 20251216112638 48C23D74E4E58F0BF2B83D748395D021)...executed safely (allowed).
+runsystem(latexminted cleantemp  --timestamp 20251216225324 48C23D74E4E58F0BF2B83D748395D021)...executed safely (allowed).
 
 (./Rapport_tp4.aux)
  ***********
@@ -1109,24 +1222,24 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `Rapport_tp4.out' has not changed.
-(rerunfilecheck)             Checksum: 6F8890B07DBD63E17E30C4BB3AA2D3A5;5494.
+(rerunfilecheck)             Checksum: 029C430C493AC64221FFC3E06DC2B438;6780.
 Package logreq Info: Writing requests to 'Rapport_tp4.run.xml'.
 \openout1 = `Rapport_tp4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26034 strings out of 475142
- 502771 string characters out of 5765945
- 1554894 words of memory out of 5000000
- 48675 multiletter control sequences out of 15000+600000
- 603078 words of font info for 65 fonts, out of 8000000 for 9000
+ 26360 strings out of 475142
+ 507423 string characters out of 5765945
+ 1558641 words of memory out of 5000000
+ 48963 multiletter control sequences out of 15000+600000
+ 604393 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,7n,81p,700b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Rapport_tp4.pdf (14 pages, 15685392 bytes).
+ 75i,8n,81p,700b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
+Output written on Rapport_tp4.pdf (24 pages, 19572355 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
- 385 compressed objects within 4 object streams
- 56 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 725 PDF objects out of 1000 (max. 8388607)
+ 478 compressed objects within 5 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
