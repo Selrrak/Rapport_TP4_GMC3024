@@ -19,6 +19,7 @@
 \usepackage{csquotes}    % Improves handling of quotations.
 \usepackage{setspace}    % Used to set line spacing
 \usepackage{longtable,booktabs,array} % Packages for advanced table formatting.
+\usepackage{wasysym}
 \usepackage[
   backend=biber,
   style=apa,  
@@ -117,7 +118,7 @@
 	    \includegraphics[width=1.1\linewidth]{./assets/Croquis_CB.pdf}
     \end{figure}
     \begin{par}
-	    Explication du concept
+	    Explication du concept: Cette solution est inspiré d'un "cric" permettant de soulever des voitures. Le moteur (\#1) fait tourner une vis ACME (\#2). Deux écrous (\#3) sont bloqués en rotation sur la vis, lorsque le moteur tourne, ils seront naturellement pousser vers le centre de la vis, entrainant avec eux les pivots centraux des barres (\#4 et \#7). Lorsque les pivots centraux se rapprochent, les systèmes de barres se dressent, ce qui a pour efffet d'élever la plateforme (\#8), et par extension, la charge (\#9) qui y est posée.
     \end{par}
     \begin{figure}[H] 
 	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_CB.png}
@@ -140,10 +141,10 @@
 	    \includegraphics[width=1.1\linewidth]{./assets/Croquis_PC.pdf}
     \end{figure}
     \begin{par}
-	    Explication du concept:
+	    Explication du concept: Cette solution implique un moteur électrique (\#1) qui entraine un arbre (\#7) avec une combinaison de pignons (\#5). À l'aide de cette dernière, l'arbre fait tourner une vis sans fin (\#4) reposant sur une bille de roulement (\#6), ce qui fait monter le plateau (\#3) le long des guides (\#8), le tout supporter par le cadre (\#2). 
     \end{par}
     \begin{figure}[H] 
-	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_PC.png}
+	    \includegraphics[width=0.30\linewidth]{./assets/Signatures/Signature_PC.png}
     \end{figure}
 
     \subsection{Concept \#4: William Hamilton}
@@ -161,11 +162,140 @@
     \begin{figure}[H] 
 	    \includegraphics[width=1.1\linewidth]{./assets/Grille.png}
     \end{figure}
-    \subsection{Justification du choix}
-   Le concept du vérin mécanique (\# 4) a été retenu car... 
+    \subsection{Justification des cotes}
+    \begin{par}
+Pour le concept \#1, nous avons décidé d’attribuer la note de 60/100 au critère de propension à soulever une charge importante, en raison des contraintes susceptibles d’être appliquées aux pièces 5, dites « arbres pivots », lesquelles pourraient avoir des difficultés à les supporter.
+Concernant la variabilité du niveau de charge pouvant être soulevée en fonction de la géométrie, nous estimons que, lorsque le système se rapproche de sa hauteur maximale, la répartition des contraintes est amenée à évoluer. Bien que nous n’ayons pas réalisé d’analyse approfondie, nous avons choisi d’attribuer une note de 80/100.
+La complexité du mécanisme ainsi que le nombre de pièces ont été jugés raisonnables ; c’est pourquoi une note de 80/100 a été retenue pour ce critère.
+Enfin, le niveau d’incertitude a également obtenu cette note, dans la mesure où il s’agit d’un concept déjà connu et couramment utilisé.
+    \end{par}
+\vspace{\baselineskip}
+    \begin{par}
+Pour le concept \#2, nous avons estimé que la capacité à soulever une charge importante serait limitée et que le couple requis atteindrait rapidement une valeur susceptible de bloquer le moteur. De plus, l’engrenage 5 risquerait de frotter contre le fond du boîtier. Pour ces raisons, nous avons attribué une note de 65/100.
+Ensuite, bien que nous n’ayons réalisé ni calculs ni analyses détaillées, nous avons supposé que la hauteur du système n’influencerait pas sa capacité à soulever différentes charges. Ainsi, une note de 100/100 a été attribuée pour ce critère.
+En ce qui concerne la complexité et le nombre de pièces, ce concept est de loin le plus simple ; la note de 95/100 lui a donc été accordée. Les cinq points retirés s’expliquent par la conception des pièces 2 et 5, respectivement la « worm gear » et la « wheel gear », jugée plus exigeante.
+Enfin, une note de 70/100 a été attribuée en raison des incertitudes liées au système de transmission de puissance ainsi que du risque de flambage de la pièce 4, la « structure de guidage ».
+    \end{par}
+\vspace{\baselineskip}
+    \begin{par}
+Le concept \#3 a été jugé capable de soulever une charge importante, avec une note de 80/100, en raison de la présence de deux pièces 4, des « vis sans fin ». Toutefois, un travail d’optimisation des rapports de transmission aurait été nécessaire afin de garantir une meilleure capacité de reprise de charge.
+Nous estimons que ce concept est parfaitement capable de supporter la charge indépendamment de la hauteur de la pièce 3, le « plateau », grâce aux pièces 8, les « guides ». C’est pourquoi la note de 100/100 a été attribuée pour ce critère.
+En revanche, ce concept présente une complexité élevée, avec un grand nombre de pièces en mouvement, ce qui justifie la note de 30/100.
+Enfin, concernant le niveau d’incertitude et de risque associé à ce concept, celui-ci a été jugé relativement faible. En effet, le système est très stable grâce aux guides et à la pièce 2, le « cadre », et une part importante des efforts est reprise par des pièces métalliques (4 et 6).
+    \end{par}
+\vspace{\baselineskip}
+    \begin{par}
+Pour le concept \#4, nous estimons que, bien qu’il soit très résistant, il présente un problème similaire à celui du concept 2, à savoir une variation de rapport de transmission insuffisante, susceptible d’entraîner le blocage du moteur. Une note de 70/100 a donc été attribuée.
+En ce qui concerne la capacité de levage en fonction de la hauteur, nous avons jugé que l’impact serait limité ; c’est pourquoi une note de 90/100 a été accordée.
+Nous avons également estimé que ce concept était peu complexe, car il comporte un nombre relativement réduit de pièces.
+Enfin, nous avons considéré que la géométrie conique conférait une robustesse accrue au système, réduisant ainsi le risque de rupture.
+    \end{par}
 \section{Calculs}
 
 \subsection{Calcul de faisabilité (\#1)}
+	\subsubsection{DCL des composantes dans le chemin de force}	
+\begin{enumerate}
+\renewcommand{\labelenumi}{\alph{enumi})}
+  \begin{minipage}{\linewidth}
+  \item
+  Moteur
+
+  \medskip
+  \includegraphics[width=1\linewidth]{./assets/DCL/Moteur.png}
+  \end{minipage}
+  \begin{minipage}{\linewidth}
+  \item
+  Vis sans fin
+
+  \medskip
+  \includegraphics[width=1\linewidth]{./assets/DCL/Worm.png}
+  \end{minipage}
+  \begin{minipage}{\linewidth}
+  \item
+  Roue dentée
+
+  \medskip
+  \includegraphics[width=1\linewidth]{./assets/DCL/Gear1.png}
+  \end{minipage}
+  \begin{minipage}{\linewidth}
+  \item
+  arbre au centre de la roue dentée
+
+  \medskip
+  \includegraphics[width=0.75\linewidth]{./assets/DCL/Shaft.png}
+  \end{minipage}
+  \begin{minipage}{\linewidth}
+  \item
+  Pignon 
+
+  \medskip
+  \includegraphics[width=1\linewidth]{./assets/DCL/Gear2.png}
+  \end{minipage}
+  \begin{minipage}{\linewidth}
+  \item
+  Écrou ACME
+
+  \medskip
+  \includegraphics[width=1\linewidth]{./assets/DCL/ACME_nut.png}
+  \end{minipage}
+  \begin{minipage}{\linewidth}
+  \item
+  Vis ACME
+
+  \medskip
+  \includegraphics[width=0.7\linewidth]{./assets/DCL/ACME_screw.png}
+  \end{minipage}
+\end{enumerate}
+	\subsubsection{couple pour soulever 295,5kg}
+\begin{center}
+	\begin{tabular}{|c c c|}
+		\hline
+		Paramètre & symbole & valeur de base\\
+		\hline
+	masse à soulever & m & 295,5 [kg]\\
+	constante de gravité & g & 9,81 [ \[m\,s^{-2}} \] ]\\
+	pas de la vis ACME & P & 0,00254 [m]\\
+	Diamètre primitif vis ACME & $\diameter_s$ & 0,011285 [m]\\
+	lead angle & $\lambda$ & N/A [$\circ$]\\
+	angle d'hélice & $\psi$ & 4,098 [$\circ$]\\
+	coeff. friction vis-écrou & $\mu$ & 0,5 [-]\\
+	coeff. friction nylon-nylon & f & 0,25 [-]\\
+	efficacité & $\varepsilon$ & N/A [-]\\
+	Torque pour soulever la charge & $T_c$ & N/A [Nm]\\
+	rayon primitif du pinion & $R_g$ & 0,01915 [m]
+	Perte de torque en friction au pinion & $T_f$ & N/A [Nm]\\
+	Torque au pinion & $T_a$ & N/A [Nm]\\
+	nombre de dents du pinion & $Z_a$ & 29 [-]\\
+	nombre de dents de la roue dentée & $Z_b$ & 53 [-]\\
+	efficacité engrenage hélicoïdal & $\eta$ & 0,98 [-]\\
+	angle de pression & $\phi_n$ & 20 [$\circ$]\\
+	efficacité engrenage vis sans fin & $e_w$ & N/A [-]\\
+	nombre de filets vis sans fin & $Z_w$ & 2 [-]\\
+	Couple du moteur & $T_{moteur}$ & N/A [Nm]\\
+
+		\hline
+	\end{tabular}
+\end{center}
+\begin{enumerate}
+  \renewcommand{\labelenumi}{\alph{enumi})}
+
+  \item Torque pour soulever la charge
+\[ \lambda = atan(\frac{P}{\pi*\diameter_s}) = 4,098 \]
+
+\[ \varepsilon = \frac{tan(\psi)}{tan(\psi+atan(\mu))} = 0,1208 \]
+
+\[ T_c = \frac{m*g*P}{2\pi*\varepsilon} = 9,7 \]
+  \item Transmission de torque entre la roue dentée et le pinion
+\[ T_f = \frac{1}{2}f*m*g*R_g= \]
+\[ T_b = \eta*\frac{Z_b}{Z_a}*T_a = 17,37 \]
+  \item Transmission de torque entre la roue dentée et la vis sans fin
+\[ e_w = \frac{cos(\phi_n) - f*tan(\psi)}{cos(\phi_n) + f*cot(\psi)} = 0,18388 \]
+\[ T_{moteur} = T_{worm} = \frac{T_b*Z_w}{e_w*Z_b} = 3,57 > 2,1 Nm \]
+Couple trop grand, il faut diminuer la charge sur le système
+\end{enumerate}
+	\subsubsection{couple pour soulever une charge optimale (200 lbs)}
+	\subsubsection{masse pour un couple moteur unitaire}
+	\subsubsection{temps de montée}
 \subsection{Calcul \#2: flexion des dents de la roue dentée (pièce \#1)}
 \subsection{Calcul \#3: flexion de l'arbre de la roue dentée (pièce \#17)}
 \subsection{Calcul \#4: torsion de la vis sans vis sans fin (pièce \#2)}
