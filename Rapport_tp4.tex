@@ -149,10 +149,10 @@
 
     \subsection{Concept \#4: William Hamilton}
     \begin{figure}[H] 
-	    \includegraphics[width=1.1\linewidth]{./assets/Croquis_WH.pdf}
+	    \includegraphics[width=1.1\linewidth]{./assets/croquis_WH.jpg}
     \end{figure}
     \begin{par}
-	    Explication du concept
+	    Explication du concept: Le moteur électrique (\#1) entraine l'arbre (\#2). Cet arbre entraîne la roue dentée (\#3). La roue dentée contient des filets intérieurs pour permettre à la vis sans fin (\#4) d'être dévissée et de faire monter la plateforme (\#5). Le mécanisme est dons le bâti (\#6).
     \end{par}
     \begin{figure}[H] 
 	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_WH.png}
@@ -294,7 +294,7 @@ Enfin, nous avons considéré que la géométrie conique conférait une robustes
 \[ C_{mot} = T_{worm} = \frac{T_b*Z_w}{e_w*Z_b} = 6 > 1,2 Nm \]
 Couple trop grand, il faut diminuer la charge sur le système
 \end{enumerate}
-	\subsubsection{couple pour soulever une charge optimale (34/75 kg/lbs}
+	\subsubsection{couple pour soulever une charge optimale (34/75 kg/lbs})
 \begin{center}
 	\begin{tabular}{|c c c|}
 		\hline
@@ -426,10 +426,183 @@ Couple trop grand, il faut diminuer la charge sur le système
 \end{table}
 
 \subsection{Calcul \#2: flexion des dents de la roue dentée (pièce \#1)}
+\subsubsection{explication des contraintes physiques}
+Les dents de la roue dentée subissent une force dans le plan de le roue aux niveaux des engrenages avec le pignon et la vis sans fin. Ces forces sont causées par la transmission de puissance de la vis sans fin au pinion par le bias de la roue dentée. Elles sont donc égales puisque proportionelle au couple passant par la roue, ainsi qu'à la distance centre-point d'application, qui est la même.Ces forces tendent à faire fléchir les dents, d'où l'intérêt du calcul d'un bris flexural. 
+\subsubsection{DCL}
+  \includegraphics[width=1\linewidth]{./assets/DCL/dent_wg.png}
+\subsubsection{données techniques du calculs}
+\begin{center}
+	\begin{tabular}{|c c c|}
+		\hline
+		Paramètre & symbole & valeur de base\\
+		\hline
+		largeur de la dent & t & VAL [m]\\
+		hauteur de la dent & l & VAL [m]\\
+		profondeur de contact & F & VAL [m]\\
+		Couple nominal à la roue dentée & $T_{b}$ & 3,354 [Nm]\\
+		diamètre primitif de la roue dentée & $d_{wg}$ & 0,070 [m]\\
+		force tangentielle sur la roue dentée & $W_{twg}$ & N/A [N]\\
+		\hline
+	\end{tabular}
+\end{center}
+\subsubsection{question technique et description du calcul}
+Question : Quel chargement entrainera la rupture des dents de la roue dentée en flexion?\\
+Calcul : Utiliser l'équation de Lewis appliquée aux engrenages pour trouver la contrainte de flexion présente à la base des dents en opération normale et trouver le facteur de sécurité en fonction de la limite flexurale du Nylon. Ensuite, poser la contrainte de flexion à la base des dents comme étant la limite flexurale, et vérifier la charge correspondante pour conclure sur le bris des dents lors de l'essai de surcharge.
+\subsubsection{cas en opération normale}
+\begin{enumerate}
+  \renewcommand{\labelenumi}{\alph{enumi})}
+  \item force tangentielle au cercle primitif de la roue dentée
+	  \[ W_{twg} = \frac{2*T_{b}}{d_wg} = 95,83 \]
+  \item contrainte de flexion appliquée sur la dent
+	  \[ \sigma_{b} = \frac{MC}{I} = \frac{6W_{twg}l}{Ft^2} = 17,952 [MPa] \]
+  \item facteur de sécurité en opération normale
+
+	  \[ F.S = \frac{S_{e}}{\sigma_b}=2,34 > 1,25 \]
+Les dents de la roue dentée ne devraient pas fléchir en opération normale
+
+\subsubsection{cas en surcharge}
+\begin{enumerate}
+  \renewcommand{\labelenumi}{\alph{enumi})}
+  \item force tangentielle au cercle primitif de la roue dentée
+	  \[ W_{twg} = \frac{Se*F*t^2}{6*l} = 224,202 \]
+  \item Charge nécessaire pour défaillance flexurale des dents 
+	  \[ T_{b} = W_{twg}*\frac{d_wg}{2} = 7,84 \]\\
+La suite du calcul suit la même procédure qu'à 4.1.6
+	\[M_{b} = 77,805 \]
+	L'essai de surcharge devrait donc être limité à $M_{surcharge} = 77,805/172 kg/lbs$, charge sous laquelle les dents de la roue dentée vont se briser en flexion.
+\end{enumerate}
+\subsubsection{signatures}
+    \begin{figure}[H] 
+	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_WH.png}
+    \end{figure}
+    \begin{figure}[H] 
+	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_CB.png}
+    \end{figure}
+
+
+
 \subsection{Calcul \#3: flexion de l'arbre de la roue dentée (pièce \#17)}
+\subsubsection{explication des contraintes physiques}
+\subsubsection{DCL}
+ Voir section 4.1.1 d) (p.15)
+\subsubsection{données techniques du calculs}
+\begin{center}
+	\begin{tabular}{|c c c|}
+		\hline
+		Paramètre & symbole & valeur de base\\
+		\hline
+		\hline
+	\end{tabular}
+\end{center}
+\subsubsection{question technique et description du calcul}
+\subsubsection{cas en opération normale}
+\begin{enumerate}
+  \renewcommand{\labelenumi}{\alph{enumi})}
+
+
+\subsubsection{cas en surcharge}
+\begin{enumerate}
+  \renewcommand{\labelenumi}{\alph{enumi})}
+\end{enumerate}
+\subsubsection{signatures}
+     \begin{figure}[H] 
+	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_SR.png}
+    \end{figure}
+    \begin{figure}[H] 
+	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_WH.png}
+    \end{figure}
+    \begin{figure}[H] 
+	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_CB.png}
+    \end{figure}
+
 \subsection{Calcul \#4: torsion de la vis sans vis sans fin (pièce \#2)}
-\subsection{Calcul \#5: force nécessaire pour maintenir la vis de pressin (pièce \#11)}
-\subsection{Calcul \#6: flambage de la vis ACME (pièce \#7)}
+\subsubsection{explication des contraintes physiques}
+\subsubsection{DCL}
+Voir section 4.1.1 b) (p.14)
+\subsubsection{données techniques du calculs}
+\begin{center}
+	\begin{tabular}{|c c c|}
+		\hline
+		Paramètre & symbole & valeur de base\\
+		\hline
+		\hline
+	\end{tabular}
+\end{center}
+\subsubsection{question technique et description du calcul}
+\subsubsection{cas en opération normale}
+\begin{enumerate}
+  \renewcommand{\labelenumi}{\alph{enumi})}
+
+
+\subsubsection{cas en surcharge}
+\begin{enumerate}
+  \renewcommand{\labelenumi}{\alph{enumi})}
+\end{enumerate}
+\subsubsection{signatures}
+     \begin{figure}[H] 
+	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_SR.png}
+    \end{figure}
+    \begin{figure}[H] 
+	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_PC.png}
+    \end{figure}
+\subsection{Calcul \#5: flambage de la vis ACME (pièce \#7)}
+
+\subsubsection{explication des contraintes physiques}
+\subsubsection{DCL}
+  Voir section 4.1.1 g) (p.18)
+\subsubsection{données techniques du calculs}
+\begin{center}
+	\begin{tabular}{|c c c|}
+		\hline
+		Paramètre & symbole & valeur de base\\
+		\hline
+		\hline
+	\end{tabular}
+\end{center}
+\subsubsection{question technique et description du calcul}
+\subsubsection{cas en opération normale}
+\begin{enumerate}
+  \renewcommand{\labelenumi}{\alph{enumi})}
+
+
+\subsubsection{cas en surcharge}
+\begin{enumerate}
+  \renewcommand{\labelenumi}{\alph{enumi})}
+\end{enumerate}
+\subsubsection{signatures}
+     \begin{figure}[H] 
+	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_SR.png}
+    \end{figure}
+
+\subsection{Calcul \#6: force nécessaire pour maintenir la vis de pression (pièce \#11)}
+
+\subsubsection{explication des contraintes physiques}
+\subsubsection{DCL}
+  \includegraphics[width=1\linewidth]{./assets/DCL/dent_wg.png}
+\subsubsection{données techniques du calculs}
+\begin{center}
+	\begin{tabular}{|c c c|}
+		\hline
+		Paramètre & symbole & valeur de base\\
+		\hline
+		\hline
+	\end{tabular}
+\end{center}
+\subsubsection{question technique et description du calcul}
+\subsubsection{cas en opération normale}
+\begin{enumerate}
+  \renewcommand{\labelenumi}{\alph{enumi})}
+
+
+\subsubsection{cas en surcharge}
+\begin{enumerate}
+  \renewcommand{\labelenumi}{\alph{enumi})}
+\end{enumerate}
+\subsubsection{signatures}
+     \begin{figure}[H] 
+	    \includegraphics[width=0.45\linewidth]{./assets/Signatures/Signature_PC.png}
+    \end{figure}
+
 
 \section{Conclusion}
     \subsection{Fiche de spécifications techniques}

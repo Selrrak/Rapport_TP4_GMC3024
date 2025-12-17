@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Rapport_tp4"] 1763473556.83357 "Rapport_tp4.bcf" "Rapport_tp4.bbl" "Rapport_tp4" 1765958148.55052 2
-  "Rapport_tp4.bcf" 1765958148.47946 133726 8c8e444fc192e97110f5fe1eaac9d2be "pdflatex"
+["biber Rapport_tp4"] 1763473556.83357 "Rapport_tp4.bcf" "Rapport_tp4.bbl" "Rapport_tp4" 1765967156.85544 2
+  "Rapport_tp4.bcf" 1765967156.78577 133726 8c8e444fc192e97110f5fe1eaac9d2be "pdflatex"
   "assets/bib-template.bib" 1762468306 1774 d6ef56c2835526b1ae1db5a6500d3a5b ""
   (generated)
   "Rapport_tp4.bbl"
   "Rapport_tp4.blg"
   (rewritten before read)
-["pdflatex"] 1765958147.24439 "Rapport_tp4.tex" "Rapport_tp4.pdf" "Rapport_tp4" 1765958148.55086 2
+["pdflatex"] 1765967155.4631 "Rapport_tp4.tex" "Rapport_tp4.pdf" "Rapport_tp4" 1765967156.85576 2
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1755987285 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1755987285 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1755987285 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -163,16 +163,15 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1762960062 5306915 16c0977750255d6fec924bb2d750f2c3 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1762960054 2015179 a83f104292531e5b1e98fec7df04dae8 ""
-  "Rapport_tp4.aux" 1765958148.47446 4768 ee5651139fdc0ac0806997251cf239f3 "pdflatex"
+  "Rapport_tp4.aux" 1765967156.78177 9720 641291cad864f061169f61f511de3fb5 "pdflatex"
   "Rapport_tp4.bbl" 0 -1 0 "biber Rapport_tp4"
-  "Rapport_tp4.out" 1765958148.47746 6588 5d15d20b497ef3a7e908ca0db117a27a "pdflatex"
-  "Rapport_tp4.run.xml" 1765958148.4804 2485 7430d3321b5a5fa5e15f80a58bd02756 "pdflatex"
-  "Rapport_tp4.tex" 1765958146.02923 19571 659187091a4260f2066f8a1ac7c4b006 ""
-  "Rapport_tp4.toc" 1765958148.4804 2981 05644c91920267a755d96d78735880f6 "pdflatex"
+  "Rapport_tp4.out" 1765967156.78477 13293 cc13c32b23ef2875028fddc5a26502e5 "pdflatex"
+  "Rapport_tp4.run.xml" 1765967156.78649 2485 7430d3321b5a5fa5e15f80a58bd02756 "pdflatex"
+  "Rapport_tp4.tex" 1765967154.70233 26222 be549c7effc47b2aa2ae3918988a6825 ""
+  "Rapport_tp4.toc" 1765967156.78649 6498 2f759aeb2371d6319c6c401ff545971a "pdflatex"
   "assets/Croquis_CB.pdf" 1765918380 6682744 6d1760ddac7427cb74c0d990f84c5e31 ""
   "assets/Croquis_PC.pdf" 1765918380 4283366 5b0031223b4e22e6afe774cae6433652 ""
   "assets/Croquis_SR.pdf" 1765918380 314660 3328e60d4dec5ad239fc04876281f463 ""
-  "assets/Croquis_WH.pdf" 1765918380 1319954 b118efd1c72b7fd0cc39b7642054256b ""
   "assets/DCL/ACME_nut.png" 1765928354.86729 390023 c97b37986c02367707cc0ad666c4e73c ""
   "assets/DCL/ACME_screw.png" 1765928373.25079 396659 815aefb541204102f8f43c2eca31852c ""
   "assets/DCL/Gear1.png" 1765928311.11248 511832 7e81ad9be4a352172be0b287495acadc ""
@@ -180,6 +179,7 @@
   "assets/DCL/Moteur.png" 1765928280.27036 903766 bd52a6b1ba83162ba0cacaceb4403357 ""
   "assets/DCL/Shaft.png" 1765928324.12212 303031 9bb2870c5cf8518d00fda1a516271343 ""
   "assets/DCL/Worm.png" 1765928292.87797 713619 a6fba22a5d7657fc9869feaf56e06607 ""
+  "assets/DCL/dent_wg.png" 1765961169.4747 478159 8962936659dbfadce75b0795069cb914 ""
   "assets/Explose.png" 1764861518.70964 332047 6eac86f5f0d5ca5bbb75ccf3d98b740e ""
   "assets/Grille.png" 1765901296.06445 325243 89ef292b84fc367199a12442b2ec0cfb ""
   "assets/Signatures/Signature_CB.png" 1765900737.25073 34060 fed36c4e3254aba343038a6250277193 ""
@@ -192,6 +192,7 @@
   "assets/XY_pref2.pdf" 1764874500 486254 2168e7f25e0e053da3f6235c4a0d1e2a ""
   "assets/Z_pref1.pdf" 1764874500 583363 63b3e84b4020b17d2f7021b5c8486039 ""
   "assets/Z_pref2.pdf" 1764874500 433836 31a82aa536d7cc3d211b8a78234df4cc ""
+  "assets/croquis_WH.jpg" 1765958301.61368 102252 2602e4619351d3c8377e01b3972a55d4 ""
   (generated)
   "Rapport_tp4.aux"
   "Rapport_tp4.bcf"
